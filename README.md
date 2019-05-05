@@ -1,6 +1,6 @@
-# NPv5
+# Hellaz Team Repo
 
-Hellaz.Team  
+Hellaz.EU and Hellaz.Net  
   
 ### Credits
 
