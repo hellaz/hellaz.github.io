@@ -1,17 +1,17 @@
 jQuery(function ($) {
-  $("#rss-theverge").rss("http://www.theverge.com/rss/index.xml", {
+  $("#rss-books").rss("http://feeds.feedburner.com/HellazBooks", {
     limit: 7
   })
 })
 
 jQuery(function ($) {
-  $("#rss-androidpolice").rss("http://feeds.feedburner.com/AndroidPolice", {
+  $("#rss-movies").rss("http://feeds.feedburner.com/HellazMovies", {
     limit: 7
   })
 })
 
 jQuery(function ($) {
-  $("#rss-ars").rss("http://feeds.arstechnica.com/arstechnica/index/", {
+  $("#rss-scripts").rss("http://feeds.feedburner.com/HellazScripts", {
     limit: 7
   })
 })
