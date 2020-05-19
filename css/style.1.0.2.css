@@ -352,9 +352,9 @@ img {
   bottom: 0;
   border-bottom: 1px solid #d0d4d6;
   background-color: #fff;
-  opacity: 0.7;
+  opacity: 0.8;
   font-size: 14px;
-  color: #5f7681;
+  color: #cccccc;
 }
 .main-header:before,
 .main-header:after {
