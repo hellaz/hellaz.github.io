@@ -331,6 +331,9 @@ img {
 }
 .main-footer select {
   display: inline-block;
+  position: relative;
+    clear: both;
+    text-align: left;
   width: 94px;
   margin-left: 8px;
   padding: 0;
