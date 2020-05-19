@@ -331,9 +331,10 @@ img {
 }
 .main-footer select {
   display: inline-block;
-  position: relative;
-    clear: both;
-    text-align: left;
+  position: absolute;
+  text-align: left;
+  right: 0px;
+  top : 5px;
   width: 94px;
   margin-left: 8px;
   padding: 0;
@@ -354,7 +355,7 @@ img {
   background-color: #fff;
   opacity: 0.8;
   font-size: 14px;
-  color: #cccccc;
+  color: #5f7681;
 }
 .main-header:before,
 .main-header:after {
