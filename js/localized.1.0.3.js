@@ -225,6 +225,10 @@ var _topSites = {
             icon: 'img/newtabclub-buttons-6.png'
         },
         {
+            url: 'urlz.gr',
+            icon: 'img/newtabclub-buttons-6.png'
+        },
+        {
             url: 'twitter.com',
             icon: 'img/newtabclub-buttons-7.png'
         },
@@ -251,6 +255,10 @@ var _topSites = {
             icon: 'img/newtabclub-buttons-6.png'
         },
         {
+            url: 'urlz.gr',
+            icon: 'img/newtabclub-buttons-6.png'
+        },
+        {
             url: 'twitter.com',
             icon: 'img/newtabclub-buttons-7.png'
         },
@@ -274,6 +282,10 @@ var _topSites = {
         },
         {
             url: 'gmail.com',
+            icon: 'img/newtabclub-buttons-6.png'
+        },
+        {
+            url: 'urlz.gr',
             icon: 'img/newtabclub-buttons-6.png'
         },
         {
@@ -310,8 +322,8 @@ var _standart_sites = {
        'http://yahoo.gr': {
 			url: 'https://yahoo.gr'
 		},
-        'http://worldchat.tv': {
-            url: 'https://worldchat.tv'
+        'http://urlz.gr': {
+            url: 'https://urlz.gr'
 		},	
 		'http://in.gr': {
             url: 'https://in.gr'
@@ -388,8 +400,8 @@ var _standart_sites = {
        'http://reddit.com': {
 			url: 'https://reddit.com'
 		},
-        'http://worldchat.tv': {
-            url: 'https://worldchat.tv'
+        'http://urlz.gr': {
+            url: 'https://urlz.gr'
 		},	
 		'http://arcadeok.com': {
             url: 'https://arcadeok.com'
