@@ -1209,7 +1209,7 @@ var _standart_sites = {
 			}
     },
     cs: {
-             'http://facebook.com': {
+        'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
@@ -1235,10 +1235,9 @@ var _standart_sites = {
         'http://upperpix.com': {
             url: 'https://upperpix.com'
 			
-			},
+		},
         'http://radiobrowser.com': {
             url: 'https://radiobrowser.com'
-        
         },
 		'http://appsenjoy.com': {
             url: 'https://appsenjoy.com',
@@ -1251,7 +1250,6 @@ var _standart_sites = {
         'http://pinterest.com': {
             url: 'https://pinterest.com',
             hided: true
-		
         },
         'http://vk.com': {
             url: 'https://vk.com',

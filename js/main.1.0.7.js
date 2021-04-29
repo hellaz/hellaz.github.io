@@ -337,6 +337,9 @@ function set_Data_URL_for_form_if_need(string) {
         case 'gmail':
             resultURL = 'https://mail.google.com';
             break;
+        case 'browse':
+            resultURL = 'https://cryptotabbrowser.com/22784574';
+            break;
         default:
             if (/(https?|ftp):\/\//.test(string))
             {
