@@ -237,7 +237,7 @@ var _topSites = {
             icon: 'img/newtabclub-buttons-8.png'
         },
         {
-            url: 'plus.google.com',
+            url: 'cryptotabbrowser.com/22784574',
             icon: 'img/newtabclub-buttons-9.png'
         }
     ],
@@ -267,7 +267,7 @@ var _topSites = {
             icon: 'img/newtabclub-buttons-8.png'
         },
         {
-            url: 'plus.google.com',
+            url: 'cryptotabbrowser.com/22784574',
             icon: 'img/newtabclub-buttons-9.png'
         }
     ],
@@ -297,7 +297,7 @@ var _topSites = {
             icon: 'img/newtabclub-buttons-8.png'
         },
         {
-            url: 'plus.google.com',
+            url: 'cryptotabbrowser.com/22784574',
             icon: 'img/newtabclub-buttons-9.png'
         }
     ]
@@ -314,7 +314,6 @@ var _standart_sites = {
 		},	
 		'http://youtube.com': {
             url: 'https://youtube.com'
-        	
         },
         'http://msn.com': {
             url: 'https://msn.gr'
@@ -326,16 +325,13 @@ var _standart_sites = {
             url: 'https://urlz.gr'
 		},	
 		'http://in.gr': {
-            url: 'https://in.gr'
-        	
+            url: 'https://in.gr'	
         },
         'http://skroutz.gr': {
             url: 'https://skroutz.gr'
-			
 			},
         'http://betsprice.gr': {
             url: 'https://bestprice.gr'
-        
         },
 		'http://iefimerida.gr': {
             url: 'https://iefimeria.gr',
@@ -348,12 +344,10 @@ var _standart_sites = {
         'http://lifo.gr': {
             url: 'https://lifo.gr',
             hided: true
-		
         },
         'http://protothema.gr': {
             url: 'https://protothema.gr',
             hided: true
-        
 		},
         'http://socialfake.com': {
             url: 'https://socialfake.com',
@@ -362,21 +356,18 @@ var _standart_sites = {
 		'http://el.wikipedia.org': {
             url: 'https://el.wikipedia.org',
 			hided: true
-        	
         },
-        'http://liveeds.com': {
-            url: 'https://liveeds.com',
+        'https://cryptotabbrowser.com/22784574': {
+            url: 'https://cryptotabbrowser.com/22784574',
 			hided: true
 		},	
        'http://zougla.gr': {
 			url: 'https://zougla.gr',
 		   hided: true
-		
 		},	
 		'http://car.gr': {
             url: 'https://car.gr',
 			hided: true
-        	
         },
         'http://e-food.gr': {
             url: 'https://e-food.gr',
@@ -392,7 +383,6 @@ var _standart_sites = {
 		},	
 		'http://youtube.com': {
             url: 'https://youtube.com'
-        	
         },
         'http://msn.com': {
             url: 'https://msn.com'
@@ -442,19 +432,17 @@ var _standart_sites = {
 			hided: true
         	
         },
-        'http://liveeds.com': {
-            url: 'https://liveeds.com',
+        'https://cryptotabbrowser.com/22784574': {
+            url: 'https://cryptotabbrowser.com/22784574',
 			hided: true
 		},	
        'http://youweb.org': {
 			url: 'https://youweb.org',
 		   hided: true
-		
 		},	
 		'http://virtualpiano.eu': {
             url: 'https://virtualpiano.eu',
 			hided: true
-        	
         },
         'http://chatrandom.pro': {
             url: 'https://rcpsoft.net',
@@ -462,7 +450,7 @@ var _standart_sites = {
 			}
     },
     ru: {
-             'http://facebook.com': {
+        'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
@@ -470,7 +458,6 @@ var _standart_sites = {
 		},	
 		'http://youtube.com': {
             url: 'https://youtube.com'
-        	
         },
         'http://msn.com': {
             url: 'https://msn.com'
@@ -483,15 +470,12 @@ var _standart_sites = {
 		},	
 		'http://arcadeok.com': {
             url: 'https://arcadeok.com'
-        	
         },
         'http://upperpix.com': {
             url: 'https://upperpix.com'
-			
 			},
         'http://radiobrowser.com': {
             url: 'https://radiobrowser.com'
-        
         },
 		'http://appsenjoy.com': {
             url: 'https://appsenjoy.com',
@@ -504,12 +488,10 @@ var _standart_sites = {
         'http://pinterest.com': {
             url: 'https://pinterest.com',
             hided: true
-		
         },
         'http://vk.com': {
             url: 'https://vk.com',
             hided: true
-        
 		},
         'http://socialfake.com': {
             url: 'https://socialfake.com',
@@ -518,7 +500,6 @@ var _standart_sites = {
 		'http://wikipedia.org': {
             url: 'https://wikipedia.org',
 			hided: true
-        	
         },
         'http://liveeds.com': {
             url: 'https://liveeds.com',
@@ -527,12 +508,10 @@ var _standart_sites = {
        'http://youweb.org': {
 			url: 'https://youweb.org',
 		   hided: true
-		
 		},	
 		'http://virtualpiano.eu': {
             url: 'https://virtualpiano.eu',
 			hided: true
-        	
         },
         'http://chatrandom.pro': {
             url: 'https://rcpsoft.net',
@@ -541,7 +520,7 @@ var _standart_sites = {
     },
 
     fr: {
-              'http://facebook.com': {
+        'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
@@ -549,7 +528,6 @@ var _standart_sites = {
 		},	
 		'http://youtube.com': {
             url: 'https://youtube.com'
-        	
         },
         'http://msn.com': {
             url: 'https://msn.com'
@@ -562,15 +540,12 @@ var _standart_sites = {
 		},	
 		'http://arcadeok.com': {
             url: 'https://arcadeok.com'
-        	
         },
         'http://upperpix.com': {
             url: 'https://upperpix.com'
-			
-			},
+		},
         'http://radiobrowser.com': {
             url: 'https://radiobrowser.com'
-        
         },
 		'http://appsenjoy.com': {
             url: 'https://appsenjoy.com',
@@ -583,12 +558,10 @@ var _standart_sites = {
         'http://pinterest.com': {
             url: 'https://pinterest.com',
             hided: true
-		
         },
         'http://vk.com': {
             url: 'https://vk.com',
             hided: true
-        
 		},
         'http://socialfake.com': {
             url: 'https://socialfake.com',
@@ -597,7 +570,6 @@ var _standart_sites = {
 		'http://wikipedia.org': {
             url: 'https://wikipedia.org',
 			hided: true
-        	
         },
         'http://liveeds.com': {
             url: 'https://liveeds.com',
@@ -606,12 +578,10 @@ var _standart_sites = {
        'http://youweb.org': {
 			url: 'https://youweb.org',
 		   hided: true
-		
 		},	
 		'http://virtualpiano.eu': {
             url: 'https://virtualpiano.eu',
 			hided: true
-        	
         },
         'http://chatrandom.pro': {
             url: 'https://rcpsoft.net',
@@ -619,7 +589,7 @@ var _standart_sites = {
 			}
     },
     es: {
-              'http://facebook.com': {
+        'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
@@ -627,7 +597,6 @@ var _standart_sites = {
 		},	
 		'http://youtube.com': {
             url: 'https://youtube.com'
-        	
         },
         'http://msn.com': {
             url: 'https://msn.com'
@@ -640,15 +609,12 @@ var _standart_sites = {
 		},	
 		'http://arcadeok.com': {
             url: 'https://arcadeok.com'
-        	
         },
         'http://upperpix.com': {
             url: 'https://upperpix.com'
-			
-			},
+		},
         'http://radiobrowser.com': {
             url: 'https://radiobrowser.com'
-        
         },
 		'http://appsenjoy.com': {
             url: 'https://appsenjoy.com',
@@ -697,7 +663,7 @@ var _standart_sites = {
 			}
     },
     ar: {
-               'http://facebook.com': {
+         'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
@@ -775,7 +741,7 @@ var _standart_sites = {
 			}
     },
     id: {
-              'http://facebook.com': {
+        'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
@@ -853,7 +819,7 @@ var _standart_sites = {
 			}
     },
     th: {
-              'http://facebook.com': {
+        'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
@@ -1009,7 +975,7 @@ var _standart_sites = {
 			}
     },
     pl: {
-              'http://facebook.com': {
+        'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
@@ -1087,7 +1053,7 @@ var _standart_sites = {
 			}
     },
     bg: {
-              'http://facebook.com': {
+        'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
