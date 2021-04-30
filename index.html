@@ -104,7 +104,7 @@
 </div>
  
 
-  <div class="content-wrapper center-wrapper">   
+<div class="content-wrapper center-wrapper">   
  <!-- SEARCH -->
 	<section class="section-search-bar">
       <div class="grid-wrapper">
@@ -165,10 +165,10 @@
     </section>
   </div>
 
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Compiled and minified CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
-    <!--RSS --> 
+  <!--RSS --> 
   <main>
   <div class="container">
 	<div class="col-sm-4">
@@ -196,17 +196,21 @@
   </main>
  
  <! -- FOOTER -->
- 
- <footer class="page-footer">
-  <div class="grid-wrapper">
-    <div class="footer-copyright blue">
-      &copy; 2020 HellazStart by <a href="https://hellaz.net" target="_blank">Hellaz.Team</a> | <a class="contacts_text" href="mailto:nomail@hellaz">contact</a> | 
-      <!-- Trigger/Open The Modal -->
-          <button id="myBtn">Instructions & Privacy</button>
-      <!--<button data-target="modal1" class="btn modal-trigger">Modal</button> -->
-    
-    <div class="support green">
-    <select class="lang_selector" align="right" class="grey-text text-lighten-4 right">
+ <footer class = "page-footer">
+  <div class = "row">
+     <div class = "col">
+        <small class = "white-text">A startpage made simple. Feel free to add your links and bookmarks.</small>
+     </div>
+     
+     <div class = "col">
+        <ul>
+           <li><a href = "#" class = "grey-text text-lighten-4 right">Privacy and Terms</a></li>
+           <li><a href = "#" class = "grey-text text-lighten-4 right">User Agreement</a></li>
+           <li><a href="#modalhelp" class = "grey-text text-lighten-4 right btn modal-trigger">Instructions</a></li>
+        </ul>
+
+        <div class="input-field col s12">
+        <select class="lang_selector" align="right" class="grey-text text-lighten-4 right">
 		      <option value="el">Ελληνικά</option>
 		      <option value="en">English</option>
           <option value="ru">Русский</option>
@@ -220,71 +224,34 @@
           <option value="bg">Bulgarian</option>
           <option value="he">Hebrew</option>
           <option value="cs">Czech</option>
-		</select>
-    </div>
-
+        </select>
+        </div>
+     </div>
   </div>
+  
+  <div class = "footer-copyright">
+     <div class="container">&copy; 2021 Hellaz.Start
+        <a class="grey-text text-lighten-4 right" href = "https://hellaz.net">Brought to you by Hellaz.Team</a>
+     </div>
   </div>         
-  </footer>
+</footer>
 
 
 <!-- The Modal -->
 
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <p>All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
+<div id="modalhelp" class="modal">
+  <div class="modal-content">
+    <p>All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
 	  <p><strong>This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.</strong><br>
 	  <h4>Instructions</h4><br>
 	  1) You can add as many sites as you want, you have an example of how they will look, to delete them just go to the image and click on the "X".<br><br>
 	  2) To add your sites go to the empty box with the "+" symbol, a form will open where you can insert the URL, done this click on "Add", the site will appear among the tabs on the page every time you enter the site from the same PC.<br><br>
 	  *if you can't see site previews, change your IP by turning off and restarting your modem.</p>
-    </div>
+  </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
     </div>
-  </div>
-  
-<div id="myModal" class="modal">
-
-  <!-- Modal content -->
-  <div class="modal-content">
-    <span class="close">&times;</span>
-      <p>All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
-	  <p><strong>This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.</strong><br>
-	  <h4>Instructions</h4><br>
-	  1) You can add as many sites as you want, you have an example of how they will look, to delete them just go to the image and click on the "X".<br><br>
-	  2) To add your sites go to the empty box with the "+" symbol, a form will open where you can insert the URL, done this click on "Add", the site will appear among the tabs on the page every time you enter the site from the same PC.<br><br>
-	  *if you can't see site previews, change your IP by turning off and restarting your modem.</p>  
-  </div>
-
 </div>
-	<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the button that opens the modal
-var btn = document.getElementById("myBtn");
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks the button, open the modal 
-btn.onclick = function() {
-  modal.style.display = "block";
-}
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
 	
 <!--Start Cookie Script <script type="text/javascript" charset="UTF-8" src="//eu.cookie-script.com/s/6130ac72ad1ba8f1e93ad4e9fed7f10d.js"></script> <!--End Cookie Script-->
 </body>
