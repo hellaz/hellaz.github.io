@@ -202,8 +202,9 @@
       <div class="col m12 l4">
         <!-- COLUMN 1 -->
         <h5 class="footer-heading"><i class="fas fa-flag-checkered"></i> Hellaz.Start v2</h5>
-        <p>This simple is a startpage that is easy to use and customize. It is fully responsive CSS and HTML, so it likewise adjusts to your viewport and gadget. Feel free to add your links and bookmarks.</p>
+        <p>This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.</p>
         <br>
+        <strong>This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.</strong>
         <!-- END COLUMN 1 -->
       </div>
       <div class="col m6 l4">
@@ -214,8 +215,8 @@
             <ul class="list-unstyled footer-nav">
               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">About Us</a></li>
               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Latest News</a></li>
-              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Privacy and Terms</a></li>
-              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Instructions</a></li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a class="waves-effect waves-light btn modal-trigger" href="#modalPrivacy">Privacy and Terms</a></li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a class="waves-effect waves-light btn modal-trigger" href="#modalHelp">Instructions</a></li>
               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Blog</a></li>
             </ul>
           </div>
@@ -245,6 +246,7 @@
       </div>
       <div class="col m6 l4">
         <!-- COLUMN 3 -->
+        <!--
         <div class="newsletter">
           <h5 class="footer-heading">NEWSLETTER</h5>
           <p>You can get latest update from us by subscribing to our newsletter.</p>
@@ -255,9 +257,37 @@
               <a class="waves-effect waves-light btn grey darken-3">Subscribe</a> </div>
           </form>
         </div>
+        -->
         <div class="social-connect">
           <h5 class="footer-heading">SHARE THIS</h5>
-
+          <p><!-- AddToAny BEGIN -->
+            <div class="a2a_kit a2a_kit_size_32 a2a_default_style" data-a2a-url="http://hellaz.github.io" data-a2a-title="Hellaz.Start">
+            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+            <a class="a2a_button_facebook"></a>
+            <a class="a2a_button_twitter"></a>
+            <a class="a2a_button_tumblr"></a>
+            <a class="a2a_button_google_bookmarks"></a>
+            <a class="a2a_button_pinterest"></a>
+            <a class="a2a_button_trello"></a>
+            <a class="a2a_button_vk"></a>
+            <a class="a2a_button_wordpress"></a>
+            <a class="a2a_button_bitty_browser"></a>
+            <a class="a2a_button_diaspora"></a>
+            <a class="a2a_button_email"></a>
+            <a class="a2a_button_whatsapp"></a>
+            <a class="a2a_button_telegram"></a>
+            <a class="a2a_button_google_gmail"></a>
+            <a class="a2a_button_viber"></a>
+            <a class="a2a_button_skype"></a>
+            <a class="a2a_button_copy_link"></a>
+            </div>
+            <script>
+            var a2a_config = a2a_config || {};
+            a2a_config.onclick = 1;
+            </script>
+            <script async src="https://static.addtoany.com/menu/page.js"></script>
+            <!-- AddToAny END -->
+          </p>
         </div>
         <!-- END COLUMN 3 -->
       </div>
@@ -271,12 +301,12 @@
 </footer>
 
 
-<!-- The Modal -->
+<!-- The Modals -->
 
-<div id="modalhelp" class="modal modal-fixed-footer">
+<div id="modalHelp" class="modal modal-fixed-footer">
   <div class="modal-content">
     <p>All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
-	  <p><strong>This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.</strong><br>
+	  <p><br>
 	  <h4>Instructions</h4><br>
 	  1) You can add as many sites as you want, you have an example of how they will look, to delete them just go to the image and click on the "X".<br><br>
 	  2) To add your sites go to the empty box with the "+" symbol, a form will open where you can insert the URL, done this click on "Add", the site will appear among the tabs on the page every time you enter the site from the same PC.<br><br>
@@ -286,7 +316,18 @@
       <a href="#!"  class="modal-action modal-close waves-effect waves-red btn">Agree</a>
     </div>
 </div>
-	
+
+  <!-- Modal Structure -->
+<div id="modalPrivacy" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+
 <!--Start Cookie Script <script type="text/javascript" charset="UTF-8" src="//eu.cookie-script.com/s/6130ac72ad1ba8f1e93ad4e9fed7f10d.js"></script> <!--End Cookie Script-->
 </body>
 
