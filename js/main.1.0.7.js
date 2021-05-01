@@ -820,7 +820,7 @@ function init_sites() {
 }
 
 $(document).ready(function() {
-    
+
     $('.lang_selector').change(function() {
         var selected_lang = $(this).val();
         localize(selected_lang);
