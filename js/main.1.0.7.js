@@ -875,6 +875,7 @@ $(document).ready(function() {
     
     plus_btn = $(".grid__item.addButton");
     popular_sites_div = $("#popularSites");
+    
 
     localize();
     
