@@ -196,39 +196,71 @@
   </main>
  
  <! -- FOOTER -->
- <footer class = "page-footer">
-  <div class = "row">
-     <div class = "col">
-        <small class = "white-text">A startpage made simple. Feel free to add your links and bookmarks.</small>
-     </div>
-     
-     <div class = "col">
-        <ul>
-           <li><a href = "#" class = "grey-text text-lighten-4 right">Privacy and Terms</a></li>
-           <li><a href = "#" class = "grey-text text-lighten-4 right">User Agreement</a></li>
-           <li><a href="#modalhelp" class = "grey-text text-lighten-4 right btn modal-trigger">Instructions</a></li>
-        </ul>
-
-        <div class="input-field col s12">
-        <select class="lang_selector" align="right" class="grey-text text-lighten-4 right">
-		      <option value="el">Ελληνικά</option>
-		      <option value="en">English</option>
-          <option value="ru">Русский</option>
-          <option value="fr">French</option>
-          <option value="es">Spanish</option>
-          <option value="ar">Arabic</option>
-          <option value="id">Indonesian</option>
-          <option value="th">Thai</option>
-          <option value="vi">Vietnamese</option>
-          <option value="pl">Polish</option>
-          <option value="bg">Bulgarian</option>
-          <option value="he">Hebrew</option>
-          <option value="cs">Czech</option>
-        </select>
+ <footer class="page-footer blue" style="opacity:0.8">
+  <div class="container animatedParent" >
+    <div class="row animated fadeInDownShort">
+      <div class="col m12 l4">
+        <!-- COLUMN 1 -->
+        <h5 class="footer-heading"><i class="fas fa-flag-checkered"></i> Hellaz.Start v2</h5>
+        <p>This simple is a startpage that is easy to use and customize. It is fully responsive CSS and HTML, so it likewise adjusts to your viewport and gadget. Feel free to add your links and bookmarks.</p>
+        <br>
+        <!-- END COLUMN 1 -->
+      </div>
+      <div class="col m6 l4">
+        <!-- COLUMN 2 -->
+        <h5 class="footer-heading">POPULAR LINKS</h5>
+        <div class="row margin-bottom">
+          <div class="col s6">
+            <ul class="list-unstyled footer-nav">
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">About Us</a></li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Latest News</a></li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Privacy and Terms</a></li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Instructions</a></li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col s6">
+            <div class="input-field col s12">
+              <select class="lang_selector" align="right" class="grey-text text-lighten-4 right">
+                <option value="el">Ελληνικά</option>
+                <option value="en">English</option>
+                <option value="ru">Русский</option>
+                <option value="fr">French</option>
+                <option value="es">Spanish</option>
+                <option value="ar">Arabic</option>
+                <option value="id">Indonesian</option>
+                <option value="th">Thai</option>
+                <option value="vi">Vietnamese</option>
+                <option value="pl">Polish</option>
+                <option value="bg">Bulgarian</option>
+                <option value="he">Hebrew</option>
+                <option value="cs">Czech</option>
+              </select>
+              </div>
+          </div>
         </div>
-     </div>
+        <!-- END COLUMN 2 -->
+      </div>
+      <div class="col m6 l4">
+        <!-- COLUMN 3 -->
+        <div class="newsletter">
+          <h5 class="footer-heading">NEWSLETTER</h5>
+          <p>You can get latest update from us by subscribing to our newsletter.</p>
+          <form class="newsletter-form" method="POST">
+            <div class="input-field">
+              <input id="email" type="email" class="validate">
+              <label for="email">youremail@domain.com</label>
+              <a class="waves-effect waves-light btn grey darken-3">Subscribe</a> </div>
+          </form>
+        </div>
+        <div class="social-connect">
+          <h5 class="footer-heading">SHARE THIS</h5>
+
+        </div>
+        <!-- END COLUMN 3 -->
+      </div>
+    </div>
   </div>
-  
   <div class = "footer-copyright">
      <div class="container">&copy; 2021 Hellaz.Start
         <a class="grey-text text-lighten-4 right" href = "https://hellaz.net">Brought to you by Hellaz.Team</a>
@@ -239,7 +271,7 @@
 
 <!-- The Modal -->
 
-<div id="modalhelp" class="modal">
+<div id="modalhelp" class="modal modal-fixed-footer">
   <div class="modal-content">
     <p>All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
 	  <p><strong>This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.</strong><br>
@@ -249,7 +281,7 @@
 	  *if you can't see site previews, change your IP by turning off and restarting your modem.</p>
   </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!"  class="modal-action modal-close waves-effect waves-red btn">Agree</a>
     </div>
 </div>
 	
