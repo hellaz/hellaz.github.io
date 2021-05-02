@@ -31,7 +31,7 @@
     <script src="js/init.js"></script>
     <script src="js/localized.1.0.3.js"></script>
     <script src="js/main.1.0.7.js"></script>
-    
+
   <!-- scripts.end -->
   
   <!-- Compiled and minified CSS -->
@@ -319,9 +319,7 @@
 
 <div id="modalHelp" class="modal modal-fixed-footer">
   <div class="modal-content">
-    <p>All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
-	  <p><br>
-	  <h4>Instructions</h4><br>
+    <h4>Instructions</h4><br>
 	  1) You can add as many sites as you want, you have an example of how they will look, to delete them just go to the image and click on the "X".<br><br>
 	  2) To add your sites go to the empty box with the "+" symbol, a form will open where you can insert the URL, done this click on "Add", the site will appear among the tabs on the page every time you enter the site from the same PC.<br><br>
 	  *if you can't see site previews, change your IP by turning off and restarting your modem.</p>
@@ -334,8 +332,9 @@
   <!-- Modal Structure -->
 <div id="modalPrivacy" class="modal">
     <div class="modal-content">
-      <h4>Modal Header</h4>
-      <p>A bunch of text</p>
+      <h4>Privacy & Terms</h4>
+      <p>All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
+	  <p><br>
     </div>
     <div class="modal-footer">
       <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
@@ -343,6 +342,14 @@
   </div>
 
 <!--Start Cookie Script <script type="text/javascript" charset="UTF-8" src="//eu.cookie-script.com/s/6130ac72ad1ba8f1e93ad4e9fed7f10d.js"></script> <!--End Cookie Script-->
+<script>
+  $(document).ready(function(){
+    $('.modal').modal({
+        dismissible: false, // Modal cannot be closed by clicking anywhere outside
+      }
+    );
+    })
+  </script>
 </body>
 
 </html>
