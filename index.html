@@ -25,13 +25,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.8.4/moment.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-rss/4.3.0/jquery.rss.min.js"></script>
- 
+  
   <!-- scripts -->
 
     <script src="js/init.js"></script>
     <script src="js/localized.1.0.3.js"></script>
     <script src="js/main.1.0.7.js"></script>
+    
   <!-- scripts.end -->
+  
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
 	<style>
 /* The Modal (background) */
@@ -165,8 +172,7 @@
     </section>
   </div>
 
-  <!-- Compiled and minified CSS -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
 
   <!--RSS --> 
   <main>
@@ -215,33 +221,18 @@
             <ul class="list-unstyled footer-nav">
               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">About Us</a></li>
               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Latest News</a></li>
-              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a class="waves-effect waves-light btn modal-trigger" href="#modalPrivacy">Privacy and Terms</a></li>
-              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a class="waves-effect waves-light btn modal-trigger" href="#modalHelp">Instructions</a></li>
               <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Blog</a></li>
             </ul>
           </div>
           <div class="col s6">
-            <div class="container">
-            <div class="input-field col s12">
-              <select class="lang_selector" align="right" class=”browser-default”>
-                <option value="el">Ελληνικά</option>
-                <option value="en">English</option>
-                <option value="ru">Русский</option>
-                <option value="fr">French</option>
-                <option value="es">Spanish</option>
-                <option value="ar">Arabic</option>
-                <option value="id">Indonesian</option>
-                <option value="th">Thai</option>
-                <option value="vi">Vietnamese</option>
-                <option value="pl">Polish</option>
-                <option value="bg">Bulgarian</option>
-                <option value="he">Hebrew</option>
-                <option value="cs">Czech</option>
-              </select>
-              </div>
-              </div>
+            <ul class="list-unstyled footer-nav">
+
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a class="waves-effect waves-light btn modal-trigger" href="#modalPrivacy">Privacy and Terms</a></li>
+              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a class="waves-effect waves-light btn modal-trigger" href="#modalHelp">Instructions</a></li>
+            </ul>
           </div>
         </div>
+
         <!-- END COLUMN 2 -->
       </div>
       <div class="col m6 l4">
@@ -258,6 +249,29 @@
           </form>
         </div>
         -->
+        <div class="language">
+          <h5 class="footer-heading">LANGUAGE</h5>
+          <p>Select your local language preference.</p>
+          <form class="language-form" method="POST">
+          <div class="input-field">
+            <select class="lang_selector" class=”browser-default”>
+              <option value="el">Ελληνικά</option>
+              <option value="en">English</option>
+              <option value="ru">Русский</option>
+              <option value="fr">French</option>
+              <option value="es">Spanish</option>
+              <option value="ar">Arabic</option>
+              <option value="id">Indonesian</option>
+              <option value="th">Thai</option>
+              <option value="vi">Vietnamese</option>
+              <option value="pl">Polish</option>
+              <option value="bg">Bulgarian</option>
+              <option value="he">Hebrew</option>
+              <option value="cs">Czech</option>
+            </select>
+          </form>
+          </div>
+        </div>
         <div class="social-connect">
           <h5 class="footer-heading">SHARE THIS</h5>
           <p><!-- AddToAny BEGIN -->
