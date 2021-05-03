@@ -225,8 +225,8 @@
             </ul>
           </div>
           <div class="col s6">
-<i class="fa fa-caret-right" aria-hidden="true"></i> <a class="waves-effect waves-light btn modal-trigger" href="#modalPrivacy">Privacy and Terms</a></li>
-<i class="fa fa-caret-right" aria-hidden="true"></i> <a class="waves-effect waves-light btn modal-trigger" href="#modalHelp">Instructions</a></li>
+          <a class="waves-effect waves-light btn modal-trigger" href="#modalPrivacy">Privacy and Terms</a><br/>
+          <a class="waves-effect waves-light btn modal-trigger" href="#modalHelp">Instructions</a>
 
           </div>
         </div>
@@ -315,7 +315,7 @@
 
 <!-- The Modals -->
 
-<div id="modalHelp" class="modal modal-fixed-footer">
+<div id="modalHelp" class="modal">
   <div class="modal-content">
     <h4>Instructions</h4><br>
 	  1) You can add as many sites as you want, you have an example of how they will look, to delete them just go to the image and click on the "X".<br><br>
@@ -323,7 +323,7 @@
 	  *if you can't see site previews, change your IP by turning off and restarting your modem.</p>
   </div>
     <div class="modal-footer">
-      <a href="#!"  class="modal-action modal-close waves-effect waves-red btn">Agree</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-red btn">Agree</a>
     </div>
 </div>
 
@@ -335,9 +335,32 @@
 	  <p><br>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
     </div>
 </div>
+
+    <!--Contact Modal-->
+<div class="modal fade" id="modalContact" tabindex="-1" role="dialog" class="modal">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content bg-dark">
+              <div class="modal-header">
+                  <h5 class="modal-title text-light" id="exampleModalLabel">We would love to hear from you!!</h5> <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+              </div>
+              <div class="modal-body">
+                  <form class="form my-3 mr-2 ml-2">
+                      <div class="form-row">
+                          <div class="form-group col-sm"> <label for="exampleInputEmail1" style="color: #fff;">Enter Name</label> <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First"> </div>
+                          <div class="form-group col-sm"> <label class="sm-lbl" for="exampleInputEmail1" style="color:rgba(0, 0, 0, 0); visibility: hidden;">Enter Name</label> <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Last"> </div>
+                      </div>
+                      <div class="form-group"> <label for="exampleInputEmail1" style="color: #fff;">Enter Email</label> <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""> </div>
+                      <div class="form-group"> <label for="exampleFormControlTextarea1" style="color: #fff;">Your Query or Question</label> <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea> </div>
+                  </form>
+              </div>
+              <div class="modal-footer"> <button type="button" class="btn btn-outline-light ml-sm-2" style="border-radius: 50px; width:100%;" data-dismiss="modal" aria-label="Close">Submit</button> </div>
+          </div>
+      </div>
+  </div>
+
 
 <!--Start Cookie Script <script type="text/javascript" charset="UTF-8" src="//eu.cookie-script.com/s/6130ac72ad1ba8f1e93ad4e9fed7f10d.js"></script> <!--End Cookie Script-->
 <script>
