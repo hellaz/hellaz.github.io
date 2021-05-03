@@ -177,25 +177,29 @@
   <!--RSS --> 
   <main>
   <div class="container">
-	<div class="col-sm-4">
+	<div class="col-sm-3">
 	<div class="row">
         <div class="col s12 m4">
-          <h6 class="center">
+          <div class="card white-blue" style="opacity: 0.7;">
+          <div class="card-content white-text center">
             <a href="http://Books.Hellaz.EU">Books Online</a>
-          </h6>
-          <div id="rss-books"></div>
+          </div></div>
+          <div id="rss-books" style="display: block; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 10px; color: gray;"></div>
         </div>
+
         <div class="col s12 m4">
-          <h6 class="center">
+          <div class="card white-blue" style="opacity: 0.7;">
+          <div class="card-content white-text center">
             <a href="http://Movies.Hellaz.EU">Movies Online</a>
-          </h6>
-          <div id="rss-movies"></div>
+          </div></div>
+          <div id="rss-movies" style="display: block; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px; color: gray;"></div>
         </div>
-        <div class="col s12 m4">
-          <h6 class="center">
+        <div class="col s12 m4" >
+          <div class="card white-blue" style="opacity: 0.7;">
+          <div class="card-content white-text center">
             <a href="http://Scripts.Hellaz.EU">Scripts Online</a>
-          </h6>
-          <div id="rss-scripts"></div>
+          </div></div>
+          <div id="rss-scripts" style="display: block; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px; color: gray;"></div>
         </div>
 	</div>
   </div>
@@ -218,16 +222,10 @@
         <h5 class="footer-heading">LINKS</h5>
         <div class="row margin-bottom">
           <div class="col s6">
-            <ul class="list-unstyled footer-nav">
-              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">About Us</a></li>
-              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Latest News</a></li>
-              <li><i class="fa fa-caret-right" aria-hidden="true"></i> <a href="#">Blog</a></li>
-            </ul>
-          </div>
-          <div class="col s6">
-          <a class="waves-effect waves-light btn modal-trigger" href="#modalPrivacy">Privacy and Terms</a><br/>
-          <a class="waves-effect waves-light btn modal-trigger" href="#modalHelp">Instructions</a>
-          <a class="waves-effect waves-light btn modal-trigger" href="#modalContact">Constact Us</a>
+          <a class="waves-effect waves-light modal-trigger" href="#modalHelp" style="color: antiquewhite;">Instructions</a>
+          <a class="waves-effect waves-light modal-trigger" href="#modalPrivacy" style="color: antiquewhite;">Terms & Privacy</a><br/>
+          <a class="waves-effect waves-light modal-trigger" href="#modalContact" style="color: antiquewhite;">Contact Us</a>
+
           </div>
         </div>
 
@@ -330,6 +328,7 @@
 <div id="modalPrivacy" class="modal fade bottom-sheet">
     <div class="modal-content">
       <h4>Privacy & Terms</h4>
+      <p>Our website uses cookies and similar technologies to ensure the proper functioning of procedures and improve the experience of using online applications. This web page works based on the browser data saved on your PC in the form of cookies. If you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.</p>
       <p>All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
 	  <p><br>
     </div>
@@ -375,6 +374,7 @@
         dismissible: true, // Modal cannot be closed by clicking anywhere outside
       }
     );
+    $('select').formSelect();
     })
   </script>
 
