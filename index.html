@@ -315,7 +315,7 @@
 
 <!-- The Modals -->
 
-<div id="modalHelp" class="modal">
+<div id="modalHelp" class="modal fade bottom-sheet">
   <div class="modal-content">
     <h4>Instructions</h4><br>
 	  1) You can add as many sites as you want, you have an example of how they will look, to delete them just go to the image and click on the "X".<br><br>
@@ -323,30 +323,29 @@
 	  *if you can't see site previews, change your IP by turning off and restarting your modem.</p>
   </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-red btn">Agree</a>
+      <a href="#!" class="modal-close waves-effect waves-red btn">Agree</a>
     </div>
 </div>
-
-  <!-- Modal Structure -->
-<div id="modalPrivacy" class="modal">
+   <!--Privacy Modal-->
+<div id="modalPrivacy" class="modal fade bottom-sheet">
     <div class="modal-content">
       <h4>Privacy & Terms</h4>
       <p>All product names, logos, and brands are property of their respective owners. All company, product and service names used in this website are for identification purposes only.</p>
 	  <p><br>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-close waves-effect waves-green btn-flat">OK</a>
+      <a href="#!" class="modal-close waves-effect waves-green btn">OK</a>
     </div>
 </div>
 
     <!--Contact Modal-->
-<div class="modal fade" id="modalContact" role="dialog" class="modal">
+<div id="modalContact" class="modal fade bottom-sheet"  role="dialog">
       <div class="modal-dialog">
           <div class="modal-content bg-dark">
               <div class="modal-header">
-                  <h5 class="modal-title text-light" id="exampleModalLabel">We would love to hear from you!!</h5> <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                  <h5 class="modal-title text-light" id="exampleModalLabel">We would love to hear from you!!</h5> 
+                  <button type="button" class="close text-light" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
               </div>
-              <div class="modal-body bg-dark">
                   <form class="form my-3 mr-2 ml-2">
                       <div class="form-row">
                           <div class="form-group col-sm"> <label for="exampleInputEmail1" style="color: #fff;">Enter Name</label> <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="First"> </div>
@@ -355,8 +354,9 @@
                       <div class="form-group"> <label for="exampleInputEmail1" style="color: #fff;">Enter Email</label> <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder=""> </div>
                       <div class="form-group"> <label for="exampleFormControlTextarea1" style="color: #fff;">Your Query or Question</label> <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea> </div>
                   </form>
+              <div class="modal-footer">
+                <button type="button" class="modal-close waves-effect waves-blue btn btn-outline-light ml-sm-2" style="border-radius: 50px; width:100%;" data-dismiss="modal" aria-label="Close">Submit</button> 
               </div>
-              <div class="modal-footer"> <button type="button" class="btn btn-outline-light ml-sm-2" style="border-radius: 50px; width:100%;" data-dismiss="modal" aria-label="Close">Submit</button> </div>
           </div>
       </div>
   </div>
@@ -366,7 +366,7 @@
 <script>
   $(document).ready(function(){
     $('.modal').modal({
-        dismissible: false, // Modal cannot be closed by clicking anywhere outside
+        dismissible: true, // Modal cannot be closed by clicking anywhere outside
       }
     );
     })
