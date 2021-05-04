@@ -54,7 +54,7 @@ var _strings = {
         'add': 'Ajouter',
         'popular_sites': 'Sites populaires',
         'enter_url': 'Entrez l`URL du site',
-        'сonfidentiality': 'Vie privé',
+        'сonfidentiality': 'Vie privé ',
         'сontacts': 'Contacts',
         'all': 'Tout',
         'images': 'Images',
