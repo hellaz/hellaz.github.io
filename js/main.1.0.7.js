@@ -377,11 +377,11 @@ function toogleAddingTabPanel() {
         $('.new-tab-adding__input-wrapper input').focus().val('');
         if (!$('.hided').length)
         {
-            $('.popupar_heading').css('display', 'none');
+            $('.popular_heading').css('display', 'none');
         }
         else
         {
-            $('.popupar_heading').css('display', '');
+            $('.popular_heading').css('display', '');
         }
     }
 }
@@ -696,7 +696,7 @@ function onGridItemClose(event) {
     
     if ($('.hided').length)
     {
-        $('.popupar_heading').css('display', '');
+        $('.popular_heading').css('display', '');
     }
 }
 
