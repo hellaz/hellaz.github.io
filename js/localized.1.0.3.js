@@ -15,6 +15,7 @@ var _strings = {
         'news': 'Νέα',
         'maps': 'Χάρτες',
         'search_title': 'Αναζήτηση Google'
+        'language_select_msg': 'Επιλογή επιθυμητής γλώσσας'
     },
     en: {
         'what_to_search': 'Search the Web',
@@ -30,6 +31,7 @@ var _strings = {
         'news': 'News',
         'maps': 'Maps',
         'search_title': 'Google Search'
+        'language_select_msg': 'Select your local language preference'
     },
     ru: {
         'what_to_search': 'Что искать?',
@@ -1338,4 +1340,6 @@ function localize(lang) {
     $('.new-tab-adding__form button').text(getLocalized('add'));
     $('.new-tab-adding__form input').attr('placeholder', getLocalized('enter_url'));
     $('.сonfident_text').text(getLocalized('сonfidentiality'));
+    $('.language_select_msg').text(getLocalized('language_select_msg'));
+
 }
