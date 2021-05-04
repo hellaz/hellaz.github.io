@@ -14,8 +14,8 @@ var _strings = {
         'videos': 'Βίντεο',
         'news': 'Νέα',
         'maps': 'Χάρτες',
-        'search_title': 'Αναζήτηση Google'
-        'language_select_msg': 'Επιλογή επιθυμητής γλώσσας'
+        'search_title': 'Αναζήτηση Google',
+        'language_selection': 'Επιλογή επιθυμητής γλώσσας'
     },
     en: {
         'what_to_search': 'Search the Web',
@@ -30,8 +30,8 @@ var _strings = {
         'videos': 'Videos',
         'news': 'News',
         'maps': 'Maps',
-        'search_title': 'Google Search'
-        'language_select_msg': 'Select your local language preference'
+        'search_title': 'Google Search',
+        'language_selection': 'Select your local language preference'
     },
     ru: {
         'what_to_search': 'Что искать?',
@@ -61,7 +61,8 @@ var _strings = {
         'videos': 'Vidéos',
         'news': 'Nouvelles',
         'maps': 'Cartes',
-        'search_title': 'Recherche Google'
+        'search_title': 'Recherche Google',
+        'language_selection': 'Sélectionnez votre langue préférée'
     },
     es: {
         'what_to_search': '¿Qué buscar?',
@@ -76,7 +77,8 @@ var _strings = {
         'videos': 'Videos',
         'news': 'Noticias',
         'maps': 'Mapas',
-        'search_title': 'Búsqueda de Google'
+        'search_title': 'Búsqueda de Google',
+        'language_selection': 'Seleccione su preferencia de idioma'
     },
     ar: {
         'what_to_search': 'ما للبحث؟',
@@ -91,7 +93,8 @@ var _strings = {
         'videos': 'فيديوهات',
         'news': 'أخبار',
         'maps': 'خرائط',
-        'search_title': 'Google بحث'
+        'search_title': 'Google بحث',
+        'language_selection': 'اختر لغتك المحلية المفضلة'
     },
     id: {
         'what_to_search': 'Apa yang harus mencari?',
@@ -106,7 +109,8 @@ var _strings = {
         'videos': 'Video',
         'news': 'Berita',
         'maps': 'Maps',
-        'search_title': 'Pencarian Google'
+        'search_title': 'Pencarian Google',
+        'language_selection': 'Pilih preferensi bahasa lokal Anda'
     },
     th: {
         'what_to_search': 'สิ่งที่ต้องการค้นหา?',
@@ -121,7 +125,8 @@ var _strings = {
         'videos': 'วิดีโอ',
         'news': 'ข่าว',
         'maps': 'แผนที่',
-        'search_title': 'ค้นหา Google'
+        'search_title': 'ค้นหา Google',
+        'language_selection': 'เลือกการตั้งค่าภาษาท้องถิ่นของคุณ'
     },
     vi: {
         'what_to_search': 'Gì để tìm kiếm?',
@@ -136,7 +141,8 @@ var _strings = {
         'videos': 'Video',
         'news': 'Tin tức',
         'maps': 'Maps',
-        'search_title': 'Tìm kiếm Google'
+        'search_title': 'Tìm kiếm Google',
+        'language_selection': 'Chọn tùy chọn ngôn ngữ địa phương của bạn'
     },
     pl: {
         'what_to_search': 'Czego szukać?',
@@ -151,7 +157,8 @@ var _strings = {
         'videos': 'Filmy',
         'news': 'Aktualności',
         'maps': 'Mapy',
-        'search_title': 'Wyszukiwarka Google'
+        'search_title': 'Wyszukiwarka Google',
+        'language_selection': 'Wybierz preferowany język lokalny'
     },
     bg: {
         'what_to_search': 'Какво да търсите?',
@@ -166,7 +173,8 @@ var _strings = {
         'videos': 'Видео',
         'news': 'Новини',
         'maps': 'Карти',
-        'search_title': 'Търсене в Google'
+        'search_title': 'Търсене в Google',
+        'language_selection': 'Изберете предпочитанията си за местен език'
     },
     he: {
         'what_to_search': 'מה לחפש?',
@@ -181,7 +189,8 @@ var _strings = {
         'videos': 'וידאו',
         'news': 'חֲדָשׁוֹת',
         'maps': 'מפות',
-        'search_title': 'חיפוש בגוגל'
+        'search_title': 'חיפוש בגוגל',
+        'language_selection': 'בחר את העדפת השפה המקומית שלך'        
     },
     cs: {
         'what_to_search': 'Co je třeba hledat?',
@@ -196,8 +205,26 @@ var _strings = {
         'videos': 'Videa',
         'news': 'Zprávy',
         'maps': 'Mapy',
-        'search_title': 'Google vyhledávání'
+        'search_title': 'Google vyhledávání',
+        'language_selection': 'Vyberte předvolbu místního jazyka'
+    },
+    rs: {
+        'what_to_search': 'шта да претражујем?',
+        'add_site': 'додај веб локацију',
+        'add': 'веб сајт',
+        'popular_sites': 'популарне веб странице',
+        'enter_url': 'унесите урл веб локације',
+        'сonfidentiality': 'приватност',
+        'сontacts': 'контакти',
+        'all': 'Všechno',
+        'images': 'слике',
+        'videos': 'видео',
+        'news': 'вести',
+        'maps': 'карте',
+        'search_title': 'Гоогле претрага',
+        'language_selection': 'Изаберите свој локални језик'
     }
+
 };
 
 var _topSites = {
@@ -1285,7 +1312,76 @@ var _standart_sites = {
             url: 'https://rcpsoft.net',
 			hided: true
 			}
-    }
+    },
+    rs: {
+        'http://facebook.com': {
+			url: 'https://www.facebook.com'
+		},
+        'http://twitter.com': {
+            url: 'https://twitter.com'
+		},	
+		'http://youtube.com': {
+            url: 'https://youtube.com'
+        },
+        'http://msn.com': {
+            url: 'https://msn.com'
+		},	
+       'http://reddit.com': {
+			url: 'https://reddit.com'
+		},
+        'http://worldchat.tv': {
+            url: 'https://worldchat.tv'
+		},	
+		'http://arcadeok.com': {
+            url: 'https://arcadeok.com'
+        },
+        'http://upperpix.com': {
+            url: 'https://upperpix.com'
+			},
+        'http://radiobrowser.com': {
+            url: 'https://radiobrowser.com'
+        },
+		'http://appsenjoy.com': {
+            url: 'https://appsenjoy.com',
+            hided: true
+        },
+        'http://tvnations.com': {
+            url: 'https://tvnations.com',
+            hided: true
+        },
+        'http://pinterest.com': {
+            url: 'https://pinterest.com',
+            hided: true
+        },
+        'http://vk.com': {
+            url: 'https://vk.com',
+            hided: true
+		},
+        'http://socialfake.com': {
+            url: 'https://socialfake.com',
+			hided: true
+		},	
+		'http://wikipedia.org': {
+            url: 'https://wikipedia.org',
+			hided: true
+        },
+        'http://liveeds.com': {
+            url: 'https://liveeds.com',
+			hided: true
+		},	
+       'http://youweb.org': {
+			url: 'https://youweb.org',
+		   hided: true
+		},	
+		'http://virtualpiano.eu': {
+            url: 'https://virtualpiano.eu',
+			hided: true
+        },
+        'http://chatrandom.pro': {
+            url: 'https://rcpsoft.net',
+			hided: true
+			}
+    },
 };
 
 function getLocalized(string) {
@@ -1340,6 +1436,6 @@ function localize(lang) {
     $('.new-tab-adding__form button').text(getLocalized('add'));
     $('.new-tab-adding__form input').attr('placeholder', getLocalized('enter_url'));
     $('.сonfident_text').text(getLocalized('сonfidentiality'));
-    $('.language_select_msg').text(getLocalized('language_select_msg'));
+    $('.language_select_text').text(getLocalized('language_selection'));
 
 }
