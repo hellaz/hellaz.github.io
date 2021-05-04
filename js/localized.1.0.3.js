@@ -1446,7 +1446,7 @@ function localize(lang) {
 
     $('#search_form input').attr('placeholder', getLocalized('what_to_search'));
     $('.add_site_head').text(getLocalized('add_site'));
-    $('.popupar_heading').text(getLocalized('popular_sites'));
+    $('.popular_heading').text(getLocalized('popular_sites'));
     $('.new-tab-adding__form button').text(getLocalized('add'));
     $('.new-tab-adding__form input').attr('placeholder', getLocalized('enter_url'));
     $('.сonfident_text').text(getLocalized('сonfidentiality'));
