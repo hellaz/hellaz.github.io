@@ -1451,7 +1451,7 @@ function localize(lang) {
     $('.new-tab-adding__form input').attr('placeholder', getLocalized('enter_url'));
     $('.сonfident_text').text(getLocalized('сonfidentiality'));
     $('.contactus_text').text(getLocalized('сontactus'));
-    $('.help_text').text(getLocalized('сontactus'));
+    $('.help_text').text(getLocalized('instructions'));
     $('.language_select_text').text(getLocalized('language_selection'));
 
 }
