@@ -25,7 +25,7 @@ var _strings = {
         'language': 'Γλώσσα',
         'language_selection': 'Επιλογή επιθυμητής γλώσσας',
         'aboutus': 'Μια απλή σελίδα έναρξης, εύκολη στη χρήση και προσαρμόσιμη με τους δικούς σας συνδέσμους. Είναι πλήρως κατασκευασμένη με προσαρμοστική σχεδίαση CSS και HTML και όλα τα δεδομένα αποθηκεύονται στα cookie του προγράμματος περιήγησής σας. Μη διστάσετε να προσθέσετε τους συνδέσμους και τους σελιδοδείκτες σας.',
-        'warning': 'Αυτή η σελίδα λειτουργεί χάρη στα δεδομένα που είναι αποθηκευμένα στον υπολογιστή σας ως cookies. Aν καθαρίσετε το πρόγραμμα περιήγησής σας από τα Cookies, θα διαγράψετε όλους τους αποθηκευμένους ιστότοπους και συνδέσμους, μιας και αυτό που βλέπετε δεν αποθηκεύεται διαδικτυακά και δεν κοινοποιείται.'
+        'warning': 'Αυτή η σελίδα λειτουργεί χάρη στα δεδομένα που είναι αποθηκευμένα στον υπολογιστή σας ως cookies. Aν καθαρίσετε το πρόγραμμα περιήγησής σας από τα Cookies, θα διαγράψετε όλους τους αποθηκευμένους ιστότοπους και συνδέσμους, μιας και αυτό που βλέπετε δεν αποθηκεύεται διαδικτυακά και δεν κοινοποιείται.',
         'links': 'Σύνδεσμοι',
         'share': 'Κοινοποίηση'
     },
@@ -53,7 +53,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'Select your local language preference',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -81,7 +81,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'Select your local language preference',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -109,7 +109,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'Sélectionnez votre langue préférée',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'        
     },
@@ -137,7 +137,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'Seleccione su preferencia de idioma',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -165,7 +165,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'اختر لغتك المحلية المفضلة',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -193,7 +193,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'Pilih preferensi bahasa lokal Anda',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -221,7 +221,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'เลือกการตั้งค่าภาษาท้องถิ่นของคุณ',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -249,7 +249,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'Chọn tùy chọn ngôn ngữ địa phương của bạn',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -277,7 +277,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'Wybierz preferowany język lokalny',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -305,7 +305,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'Изберете предпочитанията си за местен език',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -333,7 +333,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'בחר את העדפת השפה המקומית שלך',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'     
     },
@@ -361,7 +361,7 @@ var _strings = {
         'language': 'Language',
         'language_selection': 'Vyberte předvolbu místního jazyka',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Links',
         'share': 'Share'
     },
@@ -389,7 +389,7 @@ var _strings = {
         'language': 'Језик',
         'language_selection': 'Изаберите свој локални језик',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
-        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.',
         'links': 'Везе',
         'share': 'Поделите'
     }
