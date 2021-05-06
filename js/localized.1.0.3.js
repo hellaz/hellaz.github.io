@@ -15,8 +15,19 @@ var _strings = {
         'videos': 'Βίντεο',
         'news': 'Νέα',
         'maps': 'Χάρτες',
+        'browse': 'Περιήγηση',
+        'weather': 'Καιρός',
+        'speed': 'Ταχύτητα',
+        'shorten': 'Συντόμευση',
+        'mine': 'Εξόρυξη',
+        'host': 'Φιλοξενία',
         'search_title': 'Αναζήτηση Google',
-        'language_selection': 'Επιλογή επιθυμητής γλώσσας'
+        'language': 'Γλώσσα',
+        'language_selection': 'Επιλογή επιθυμητής γλώσσας',
+        'aboutus': 'Μια απλή σελίδα έναρξης, εύκολη στη χρήση και προσαρμόσιμη με τους δικούς σας συνδέσμους. Είναι πλήρως κατασκευασμένη με προσαρμοστική σχεδίαση CSS και HTML και όλα τα δεδομένα αποθηκεύονται στα cookie του προγράμματος περιήγησής σας. Μη διστάσετε να προσθέσετε τους συνδέσμους και τους σελιδοδείκτες σας.',
+        'warning': 'Αυτή η σελίδα λειτουργεί χάρη στα δεδομένα που είναι αποθηκευμένα στον υπολογιστή σας ως cookies. Aν καθαρίσετε το πρόγραμμα περιήγησής σας από τα Cookies, θα διαγράψετε όλους τους αποθηκευμένους ιστότοπους και συνδέσμους, μιας και αυτό που βλέπετε δεν αποθηκεύεται διαδικτυακά και δεν κοινοποιείται.'
+        'links': 'Σύνδεσμοι',
+        'share': 'Κοινοποίηση'
     },
     en: {
         'what_to_search': 'Search the Web',
@@ -32,8 +43,19 @@ var _strings = {
         'videos': 'Videos',
         'news': 'News',
         'maps': 'Maps',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Google Search',
-        'language_selection': 'Select your local language preference'
+        'language': 'Language',
+        'language_selection': 'Select your local language preference',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     ru: {
         'what_to_search': 'Что искать?',
@@ -49,7 +71,19 @@ var _strings = {
         'videos': 'Видео',
         'news': 'Новости',
         'maps': 'Карты',
-        'search_title': 'Поиск в Google'
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
+        'search_title': 'Поиск в Google',
+        'language': 'Language',
+        'language_selection': 'Select your local language preference',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     fr: {
         'what_to_search': 'Que rechercher?',
@@ -65,8 +99,19 @@ var _strings = {
         'videos': 'Vidéos',
         'news': 'Nouvelles',
         'maps': 'Cartes',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Recherche Google',
-        'language_selection': 'Sélectionnez votre langue préférée'
+        'language': 'Language',
+        'language_selection': 'Sélectionnez votre langue préférée',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'        
     },
     es: {
         'what_to_search': '¿Qué buscar?',
@@ -82,8 +127,19 @@ var _strings = {
         'videos': 'Videos',
         'news': 'Noticias',
         'maps': 'Mapas',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Búsqueda de Google',
-        'language_selection': 'Seleccione su preferencia de idioma'
+        'language': 'Language',
+        'language_selection': 'Seleccione su preferencia de idioma',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     ar: {
         'what_to_search': 'ما للبحث؟',
@@ -99,8 +155,19 @@ var _strings = {
         'videos': 'فيديوهات',
         'news': 'أخبار',
         'maps': 'خرائط',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Google بحث',
-        'language_selection': 'اختر لغتك المحلية المفضلة'
+        'language': 'Language',
+        'language_selection': 'اختر لغتك المحلية المفضلة',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     id: {
         'what_to_search': 'Apa yang harus mencari?',
@@ -116,8 +183,19 @@ var _strings = {
         'videos': 'Video',
         'news': 'Berita',
         'maps': 'Maps',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Pencarian Google',
-        'language_selection': 'Pilih preferensi bahasa lokal Anda'
+        'language': 'Language',
+        'language_selection': 'Pilih preferensi bahasa lokal Anda',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     th: {
         'what_to_search': 'สิ่งที่ต้องการค้นหา?',
@@ -133,8 +211,19 @@ var _strings = {
         'videos': 'วิดีโอ',
         'news': 'ข่าว',
         'maps': 'แผนที่',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'ค้นหา Google',
-        'language_selection': 'เลือกการตั้งค่าภาษาท้องถิ่นของคุณ'
+        'language': 'Language',
+        'language_selection': 'เลือกการตั้งค่าภาษาท้องถิ่นของคุณ',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     vi: {
         'what_to_search': 'Gì để tìm kiếm?',
@@ -150,8 +239,19 @@ var _strings = {
         'videos': 'Video',
         'news': 'Tin tức',
         'maps': 'Maps',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Tìm kiếm Google',
-        'language_selection': 'Chọn tùy chọn ngôn ngữ địa phương của bạn'
+        'language': 'Language',
+        'language_selection': 'Chọn tùy chọn ngôn ngữ địa phương của bạn',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     pl: {
         'what_to_search': 'Czego szukać?',
@@ -167,8 +267,19 @@ var _strings = {
         'videos': 'Filmy',
         'news': 'Aktualności',
         'maps': 'Mapy',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Wyszukiwarka Google',
-        'language_selection': 'Wybierz preferowany język lokalny'
+        'language': 'Language',
+        'language_selection': 'Wybierz preferowany język lokalny',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     bg: {
         'what_to_search': 'Какво да търсите?',
@@ -184,8 +295,19 @@ var _strings = {
         'videos': 'Видео',
         'news': 'Новини',
         'maps': 'Карти',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Търсене в Google',
-        'language_selection': 'Изберете предпочитанията си за местен език'
+        'language': 'Language',
+        'language_selection': 'Изберете предпочитанията си за местен език',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     he: {
         'what_to_search': 'מה לחפש?',
@@ -201,8 +323,19 @@ var _strings = {
         'videos': 'וידאו',
         'news': 'חֲדָשׁוֹת',
         'maps': 'מפות',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'חיפוש בגוגל',
-        'language_selection': 'בחר את העדפת השפה המקומית שלך'        
+        'language': 'Language',
+        'language_selection': 'בחר את העדפת השפה המקומית שלך',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'     
     },
     cs: {
         'what_to_search': 'Co je třeba hledat?',
@@ -218,8 +351,19 @@ var _strings = {
         'videos': 'Videa',
         'news': 'Zprávy',
         'maps': 'Mapy',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Google vyhledávání',
-        'language_selection': 'Vyberte předvolbu místního jazyka'
+        'language': 'Language',
+        'language_selection': 'Vyberte předvolbu místního jazyka',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     },
     rs: {
         'what_to_search': 'шта да претражујем?',
@@ -235,8 +379,19 @@ var _strings = {
         'videos': 'видео',
         'news': 'вести',
         'maps': 'карте',
+        'browse': 'Browse',
+        'weather': 'Weather',
+        'speed': 'Speed',
+        'shorten': 'Shorten',
+        'mine': 'Mine',
+        'host': 'Host',
         'search_title': 'Гоогле претрага',
-        'language_selection': 'Изаберите свој локални језик'
+        'language': 'Language',
+        'language_selection': 'Изаберите свој локални језик',
+        'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
+        'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
+        'links': 'Links',
+        'share': 'Share'
     }
 
 };
