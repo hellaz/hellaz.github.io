@@ -1,6 +1,6 @@
 # Hellaz Team
 
-Hellaz.Start by Hellaz.Net  
+Hellaz.Start by http://Hellaz.Net  
   
 ### Credits
 
