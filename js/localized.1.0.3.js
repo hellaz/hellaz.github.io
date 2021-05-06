@@ -379,19 +379,19 @@ var _strings = {
         'videos': 'видео',
         'news': 'вести',
         'maps': 'карте',
-        'browse': 'Browse',
-        'weather': 'Weather',
+        'browse': 'прегледати',
+        'weather': 'Bреме',
         'speed': 'Speed',
         'shorten': 'Shorten',
-        'mine': 'Mine',
-        'host': 'Host',
+        'mine': 'Rudnik',
+        'host': 'Xостинг',
         'search_title': 'Гоогле претрага',
-        'language': 'Language',
+        'language': 'Језик',
         'language_selection': 'Изаберите свој локални језик',
         'aboutus': 'This is a simple startpage that is easy to use and customize. It is fully responsive CSS and HTML, and all data is stored in your browser cookies. Feel free to add your links and bookmarks.',
         'warning': 'This page works thanks to the data saved on your PC, if you clean your Browser from Cookies you could delete all the saved sites, what you see here is not online and is not shared.'
-        'links': 'Links',
-        'share': 'Share'
+        'links': 'Везе',
+        'share': 'Поделите'
     }
 
 };
