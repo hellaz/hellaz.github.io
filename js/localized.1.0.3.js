@@ -570,7 +570,7 @@ var _standart_sites = {
         'http://e-food.gr': {
             url: 'https://e-food.gr',
 			hided: true
-			}
+		}
     },
 	    en: {
         'http://facebook.com': {
@@ -645,7 +645,7 @@ var _standart_sites = {
         'http://chatrandom.pro': {
             url: 'https://rcpsoft.net',
 			hided: true
-			}
+		}
     },
     ru: {
         'http://facebook.com': {
@@ -714,7 +714,7 @@ var _standart_sites = {
         'http://chatrandom.pro': {
             url: 'https://rcpsoft.net',
 			hided: true
-			}
+		}
     },
 
     fr: {
@@ -1014,7 +1014,7 @@ var _standart_sites = {
         'http://chatrandom.pro': {
             url: 'https://rcpsoft.net',
 			hided: true
-			}
+		}
     },
     th: {
         'http://facebook.com': {
@@ -1043,7 +1043,7 @@ var _standart_sites = {
         'http://upperpix.com': {
             url: 'https://upperpix.com'
 			
-			},
+		},
         'http://radiobrowser.com': {
             url: 'https://radiobrowser.com'
         
@@ -1092,7 +1092,7 @@ var _standart_sites = {
         'http://chatrandom.pro': {
             url: 'https://rcpsoft.net',
 			hided: true
-			}
+		}
     },
     vi: {
              'http://facebook.com': {
@@ -1121,7 +1121,7 @@ var _standart_sites = {
         'http://upperpix.com': {
             url: 'https://upperpix.com'
 			
-			},
+		},
         'http://radiobrowser.com': {
             url: 'https://radiobrowser.com'
         
@@ -1170,7 +1170,7 @@ var _standart_sites = {
         'http://chatrandom.pro': {
             url: 'https://rcpsoft.net',
 			hided: true
-			}
+		}
     },
     pl: {
         'http://facebook.com': {
@@ -1199,7 +1199,7 @@ var _standart_sites = {
         'http://upperpix.com': {
             url: 'https://upperpix.com'
 			
-			},
+		},
         'http://radiobrowser.com': {
             url: 'https://radiobrowser.com'
         
@@ -1248,7 +1248,7 @@ var _standart_sites = {
         'http://chatrandom.pro': {
             url: 'https://rcpsoft.net',
 			hided: true
-			}
+		}
     },
     bg: {
         'http://facebook.com': {
@@ -1277,7 +1277,7 @@ var _standart_sites = {
         'http://upperpix.com': {
             url: 'https://upperpix.com'
 			
-			},
+		},
         'http://radiobrowser.com': {
             url: 'https://radiobrowser.com'
         
@@ -1329,7 +1329,7 @@ var _standart_sites = {
 			}
     },
     he: {
-             'http://facebook.com': {
+        'http://facebook.com': {
 			url: 'https://www.facebook.com'
 		},
         'http://twitter.com': {
