@@ -183,7 +183,7 @@ function setSearchEngine(name) {
             formAction = "https://search.hellaz.eu/"
             break;
         case 'google':
-            formAction = "https://cse.google.com/cse?cof=FORID:0&";
+            formAction = "https://cse.google.com/cse";
             var add_nodes = $('<div class="add_options">' +
                               '<input type="hidden" name="cx" value="partner-pub-3269987799484354:ze47nf-rzpu">' + 
                              '</div>');
