@@ -183,7 +183,12 @@ function setSearchEngine(name) {
             formAction = "https://search.hellaz.eu/"
             break;
         case 'google':
-            formAction = "https://cse.google.com/cse.js?cx=partner-pub-3269987799484354:ze47nf-rzpu";
+            formAction = "https://cse.google.com/cse?cof=FORID:0&";
+            var add_nodes = $('<div class="add_options">' +
+                              '<input type="hidden" name="cx" value="partner-pub-3269987799484354:ze47nf-rzpu">' + 
+                             '</div>');
+            form.append(add_nodes);
+            searchName = "q";
             break;
         case 'mail':
             formAction = "https://go.mail.ru/search?gp=813091&frc=813091";
@@ -211,7 +216,7 @@ function setSearchEngine(name) {
             searchName = "p";
             break;
         case 'presearch':
-            formAction = "https://dsearch.com/search?rid=3616308&q=most+valuable+keywords";
+            formAction = "https://dsearch.com/search";
             var add_nodes = $('<div class="add_options">' +
                               '<input type="hidden" name="rid" value="3616308">' + 
                              '</div>');
