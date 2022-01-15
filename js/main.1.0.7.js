@@ -179,8 +179,11 @@ function setSearchEngine(name) {
 
     switch (name)
     {
+        case 'hellaz':
+            formAction = "https://search.hellaz.eu/"
+            break;
         case 'google':
-            formAction = "https://www.google.com/search";
+            formAction = "https://cse.google.com/cse.js?cx=partner-pub-3269987799484354:ze47nf-rzpu";
             break;
         case 'mail':
             formAction = "https://go.mail.ru/search?gp=813091&frc=813091";
@@ -207,13 +210,13 @@ function setSearchEngine(name) {
             form.append(add_nodes);
             searchName = "p";
             break;
-        case 'rambler':
-            formAction = "https://nova.rambler.ru/search";
+        case 'presearch':
+            formAction = "https://dsearch.com/search?rid=3616308&q=most+valuable+keywords";
             var add_nodes = $('<div class="add_options">' +
-                              '<input type="hidden" name="_openstat" value="bWFya2V0YXRvcjA3Ozs7">' + 
+                              '<input type="hidden" name="rid" value="3616308">' + 
                              '</div>');
             form.append(add_nodes);
-            searchName = "query";
+            searchName = "q";
             break;
     }
 
