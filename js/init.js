@@ -1,19 +1,19 @@
 jQuery(function ($) {
-  $("#rss-books").rss("https://www.techmeme.com/feed.xml", 
+  $("#rss-news").rss("https://portal.hellaz.eu/rss.xml?category=14", 
    {
     limit: 5
   })
 })
 
 jQuery(function ($) {
-  $("#rss-movies").rss("https://news.google.com/rss?hl=el&gl=GR&ceid=GR:el", 
+  $("#rss-greece").rss("https://portal.hellaz.eu/rss.xml?category=2", 
    {
     limit: 5
   })
 })
 
 jQuery(function ($) {
-  $("#rss-scripts").rss("http://feeds.bbci.co.uk/news/rss.xml", 
+  $("#rss-sports").rss("https://portal.hellaz.eu/rss.xml?category=5", 
    {
     limit: 5
   })
