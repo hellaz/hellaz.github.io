@@ -461,6 +461,10 @@ var _topSites = {
             icon: 'img/newtabclub-buttons-7.png'
         },
         {
+            url: 'news.sitez.gr',
+            icon: 'img/newtabclub-buttons-3.png'
+        },
+        {
             url: 'linkedin.com',
             icon: 'img/newtabclub-buttons-8.png'
         },
@@ -493,6 +497,14 @@ var _topSites = {
         {
             url: 'linkedin.com',
             icon: 'img/newtabclub-buttons-8.png'
+        },
+        {
+            url: 'search.netz.gr',
+            icon: 'img/newtabclub-buttons-1.png'
+        },
+        {
+            url: 'news.sitez.gr',
+            icon: 'img/newtabclub-buttons-2.png'
         },
         {
             url: 'cryptotabbrowser.com/22784574',
