@@ -756,6 +756,12 @@ img {
 .search-dropdown__ico_rambler {
   background-image: url("../img/search_logo_6.png");
 }
+.search-dropdown__ico_presearch {
+  background-image: url("../img/search_logo_7.png");
+}
+.search-dropdown__ico_netz {
+  background-image: url("../img/search_logo_8.png");
+}
 .search-bar {
   position: relative;
   margin-bottom: 30px;
