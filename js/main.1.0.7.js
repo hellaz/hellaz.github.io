@@ -223,6 +223,14 @@ function setSearchEngine(name) {
             form.append(add_nodes);
             searchName = "q";
             break;
+        case 'netz':
+            formAction = "https://search.netz.gr/search";
+            var add_nodes = $('<div class="add_options">' +
+                              '<input type="hidden" name="engine" value="1">' + 
+                             '</div>');
+            form.append(add_nodes);
+            searchName = "q";
+            break;        
     }
 
     form.attr('action', formAction);
