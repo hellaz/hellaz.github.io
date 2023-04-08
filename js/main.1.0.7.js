@@ -224,7 +224,7 @@ function setSearchEngine(name) {
             searchName = "q";
             break;
         case 'netz':
-            formAction = "https://search.netz.gr/search";
+            formAction = "https://search.netz.gr/search?engine=1&";
             var add_nodes = $('<div class="add_options">' +
                               '<input type="hidden" name="engine" value="1">' + 
                              '</div>');
