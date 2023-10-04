@@ -1,7 +1,7 @@
 <html>
 <head>
   <style>
-    // Number of slides
+// Number of slides
 $slide-count: 7;
 
 // Tab colours (must be same as number of slides)
@@ -214,80 +214,98 @@ label {
   </style>
 </head>
   <body>
-    <fieldset class="slideshow">
+   <fieldset class="slideshow">
 
   <!-- Slide 1 -->
-  <label class="slide-button" for="slideCheckbox1">H</label>
-  <input type="radio" id="slideCheckbox1" name="slide" checked></input>
+  <input type="radio" id="slideCheckbox1" name="slide" checked autofocus></input>
   <div class="slide">
+    <div class="slide__html">
+      <!-- You can include HTML instead of a background image using .slide__html -->
+    </div>
     <div class="slide__content">
-      <span class="psst">
-        <strong>Psst!</strong> Updated version of this pen available
-        <a href="https://codepen.io/pbutcher/pen/yLLKbNo" target="_blank">here</a>!
-      </span>
-      <h1>Slideshow Concept (No JS)</h1>
+      <h1>Slideshow Concept V2 (No JS)</h1>
       <p>A pure CSS and HTML slideshow concept.</p>
       <p>To add or remove slides:</p>
       <ul>
-        <li>Add a new slide template in the HTML</li>
+        <li>Add a new slide template and label in the HTML</li>
         <li>Update the <code>$slide-count</code> SCSS variable</li>
         <li>Tab colours: Update the <code>$c-slides</code> SCSS variable</li>
         <li>Slide popout images: Update the <code>$b-slides</code> SCSS variable</li>
       </ul>
-      <p>Use the tabs below to change slide.</p>
+      <p>Use the tabs below to change slide</p>
+      <p><strong style="color: #0F0">NEW:</strong> Arrow keys work too after your first selection.</p>
       <p>Et voila.</p>
-    </div>  
+    </div>
   </div>
 
   <!-- Slide 2 -->
-  <label class="slide-button" for="slideCheckbox2">E</label>
   <input type="radio" id="slideCheckbox2" name="slide"></input>
   <div class="slide">
     <div class="slide__content">
-      <h1>E</h1>
+      <h1>More</h1>
       <p>More here</p>
-    </div> 
+    </div>
   </div>
 
   <!-- Slide 3 -->
-  <label class="slide-button" for="slideCheckbox3">L</label>
   <input type="radio" id="slideCheckbox3" name="slide"></input>
   <div class="slide">
     <div class="slide__content">
-      <h1>L</h1>
+      <h1>Yet More</h1>
       <p>Yet more here</p>
-    </div>  
+    </div>
   </div>
 
   <!-- Slide 4 -->
-  <label class="slide-button" for="slideCheckbox4">L</label>
   <input type="radio" id="slideCheckbox4" name="slide"></input>
   <div class="slide">
     <div class="slide__content">
-      <h1>L</h1>
+      <h1>Zzz</h1>
       <p>Yada yada</p>
-    </div>   
+    </div>
   </div>
 
   <!-- Slide 5 -->
-  <label class="slide-button" for="slideCheckbox5">A</label>
   <input type="radio" id="slideCheckbox5" name="slide"></input>
   <div class="slide">
     <div class="slide__content">
       <h1>The end</h1>
       <p>It's over</p>
-    </div>  
+    </div>
   </div>
 
-  <!-- Slide 6 -->
-  <label class="slide-button" for="slideCheckbox6">Z</label>
+  <!-- Add more slides here! -->
+
+  <!-- Slide 5 -->
   <input type="radio" id="slideCheckbox6" name="slide"></input>
   <div class="slide">
     <div class="slide__content">
-      <h1>Z</h1>
+      <h1>The end</h1>
       <p>It's over</p>
-    </div>  
+    </div>
   </div>
+
+  <!-- Slide 5 -->
+  <input type="radio" id="slideCheckbox7" name="slide"></input>
+  <div class="slide">
+    <div class="slide__content">
+      <h1>The end</h1>
+      <p>It's over</p>
+    </div>
+  </div>
+
+  <nav>
+
+    <!-- Add slide labels here! -->
+
+    <label class="slide-button" for="slideCheckbox1">H</label>
+    <label class="slide-button" for="slideCheckbox2">E</label>
+    <label class="slide-button" for="slideCheckbox3">L</label>
+    <label class="slide-button" for="slideCheckbox4">L</label>
+    <label class="slide-button" for="slideCheckbox5">A</label>
+    <label class="slide-button" for="slideCheckbox5">Z</label>
+    <label class="slide-button" for="slideCheckbox5">TEAM</label>
+  </nav>
 
 </fieldset>
 
