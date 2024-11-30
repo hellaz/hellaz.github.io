@@ -89,7 +89,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(1) {
-  background: url("https://via.placeholder.com/1000x2000/2E112D/fff?text=Hellaz ");
+  background: url("https://via.placeholder.com/1000x2000/2E112D/fff?text=Hellaz.1");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -108,7 +108,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(2) {
-  background: url("https://via.placeholder.com/1000x2000/540032/fff?text=Hellaz Hellenic");
+  background: url("https://via.placeholder.com/1000x2000/540032/fff?text=Hellaz.2");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -127,7 +127,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(3) {
-  background: url("https://via.placeholder.com/1000x2000/820333/fff?text=Hellaz Hero");
+  background: url("https://via.placeholder.com/1000x2000/820333/fff?text=Hellaz.3");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -146,7 +146,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(4) {
-  background: url("https://via.placeholder.com/1000x2000/C9283E/fff?text=Hellaz Excellence");
+  background: url("https://via.placeholder.com/1000x2000/C9283E/fff?text=Hellaz.4");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -165,7 +165,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(5) {
-  background: url("https://via.placeholder.com/1000x2000/F0433A/fff?text=Hellaz Localization");
+  background: url("https://via.placeholder.com/1000x2000/F0433A/fff?text=Hellaz.5");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -182,7 +182,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 }
 
 .slide:nth-child(6) {
-  background: url("https://via.placeholder.com/1000x2000/A0433A/fff?text=Hellaz Authentic");
+  background: url("https://via.placeholder.com/1000x2000/A0433A/fff?text=Hellaz.6");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -199,7 +199,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 }
 
 .slide:nth-child(7) {
-  background: url("https://via.placeholder.com/1000x2000/1269C7/fff?text=Hellaz Loyalty");
+  background: url("https://via.placeholder.com/1000x2000/1269C7/fff?text=Hellaz.Team");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
