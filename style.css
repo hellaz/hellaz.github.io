@@ -89,7 +89,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(2) {
-  background: url("https://picsum.photos/seed/picsum/1000/2000/2E112D/fff?text=1");
+  background: url("https://picsum.photos/seed/picsum/1000/2000/?text=1");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
