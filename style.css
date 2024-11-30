@@ -108,7 +108,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(4) {
-  background: url("https://source.unsplash.com/random/1000×2000/540032/fff?text=2");
+  background: url("https://picsum.photos/seed/picsum/1000/2000/?text=2");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -127,7 +127,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(6) {
-  background: url("https://source.unsplash.com/random/1000×2000/820333/fff?text=3");
+  background: url("https://picsum.photos/seed/picsum/1000/2000/?text=3");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -146,7 +146,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(8) {
-  background: url("https://source.unsplash.com/random/1000×2000/C9283E/fff?text=4");
+  background: url("https://picsum.photos/seed/picsum/1000/2000/?text=4");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -165,7 +165,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(10) {
-  background: url("https://source.unsplash.com/random/1000×2000/F0433A/fff?text=5");
+  background: url("https://picsum.photos/seed/picsum/1000/2000/?text=5");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
