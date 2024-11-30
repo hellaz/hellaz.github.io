@@ -89,7 +89,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
   display: none;
 }
 .slide:nth-child(2) {
-  background: url("https://source.unsplash.com/random/1000×2000/2E112D/fff?text=1");
+  background: url("https://unsplash.it/g/1000/2000/2E112D/fff?text=1");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
