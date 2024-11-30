@@ -269,7 +269,14 @@ label:nth-child(5) {
   left: calc(50% + (4 * (50% / 7)));
   border-bottom-color: #F0433A;
 }
-
+label:nth-child(6) {
+  left: calc(50% + (4 * (50% / 7)));
+  border-bottom-color: #F0333A;
+}
+label:nth-child(7) {
+  left: calc(50% + (4 * (50% / 7)));
+  border-bottom-color: #80433A;
+}
 @keyframes fade-in {
   0% {
     opacity: 0;
