@@ -145,6 +145,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
+/* Excellence */
 .slide:nth-child(4) {
   background: url("https://place-hold.it/1000x2000/ff0028/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
