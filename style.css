@@ -107,7 +107,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-/* Hellenic */
+/* Hellenic 1 */
 .slide:nth-child(2) {
   background: url("https://place-hold.it/1000x2000/336699/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
@@ -127,6 +127,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
+/* Team */
 .slide:nth-child(14) {
   background: url("https://place-hold.it/1000x2000/f75990/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
@@ -146,7 +147,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-/* Excellence */
+/* Excellence 2 */
 .slide:nth-child(4) {
   background: url("https://place-hold.it/1000x2000/ff0028/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
@@ -185,7 +186,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-/* Loyalty */
+/* Loyalty 3 */
 .slide:nth-child(6) {
   background: url("https://place-hold.it/1000x2000/0049B7/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
@@ -205,6 +206,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
+/* ZeorHero */
 .slide:nth-child(12) {
   background: url("https://place-hold.it/1000x2000/ff0028/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
@@ -224,7 +226,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-/* Localization */
+/* Localization 4 */
 .slide:nth-child(8) {
   background: url("https://place-hold.it/1000x2000/65A00/fff?bold&fontsize=60text=Hellaz.Network/bLocalization");
   background-repeat: no-repeat;
@@ -263,7 +265,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-/* Authentic */
+/* Authentic 5 */
 .slide:nth-child(10) {
   background: url("https://place-hold.it/1000x2000/1269C7/fff??bold&fontsize=60&text=Hellaz.Team");
   background-repeat: no-repeat;
