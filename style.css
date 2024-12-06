@@ -88,13 +88,13 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-.slide:nth-child(1) {
+.slide:nth-child(15) {
   background: url("https://place-hold.it/1000x2000/2E112D/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
-.slide:nth-child(1):after {
+.slide:nth-child(15):after {
   position: absolute;
   margin: auto;
   top: 0px;
@@ -107,6 +107,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
+/* Hellenic */
 .slide:nth-child(2) {
   background: url("https://place-hold.it/1000x2000/336699/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
@@ -126,13 +127,13 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-.slide:nth-child(3) {
+.slide:nth-child(14) {
   background: url("https://place-hold.it/1000x2000/f75990/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
-.slide:nth-child(3):after {
+.slide:nth-child(14):after {
   position: absolute;
   margin: auto;
   top: 0px;
@@ -165,13 +166,13 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-.slide:nth-child(5) {
+.slide:nth-child(13) {
   background: url("https://place-hold.it/1000x2000/00DDFF/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
-.slide:nth-child(5):after {
+.slide:nth-child(13):after {
   position: absolute;
   margin: auto;
   top: 0px;
@@ -184,6 +185,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
+/* Loyalty */
 .slide:nth-child(6) {
   background: url("https://place-hold.it/1000x2000/0049B7/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
@@ -203,13 +205,13 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-.slide:nth-child(7) {
+.slide:nth-child(12) {
   background: url("https://place-hold.it/1000x2000/ff0028/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
-.slide:nth-child(7):after {
+.slide:nth-child(12):after {
   position: absolute;
   margin: auto;
   top: 0px;
@@ -242,13 +244,13 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
-.slide:nth-child(9) {
+.slide:nth-child(11) {
   background: url("https://place-hold.it/1000x2000/1400c6/fff?bold&fontsize=60&text=Hellaz.Network");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
-.slide:nth-child(9):after {
+.slide:nth-child(11):after {
   position: absolute;
   margin: auto;
   top: 0px;
@@ -261,6 +263,7 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
+/* Authentic */
 .slide:nth-child(10) {
   background: url("https://place-hold.it/1000x2000/1269C7/fff??bold&fontsize=60&text=Hellaz.Team");
   background-repeat: no-repeat;
