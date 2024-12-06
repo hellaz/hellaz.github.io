@@ -221,8 +221,9 @@ input:checked:nth-of-type(7) ~ nav label:nth-child(7) {
 .slide__html {
   display: none;
 }
+/* Localization */
 .slide:nth-child(8) {
-  background: url("https://place-hold.it/1000x2000/657a00/fff?bold&fontsize=60text=Hellaz.Network");
+  background: url("https://place-hold.it/1000x2000/65A00/fff?bold&fontsize=60text=Hellaz.Network/bLocalization");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
