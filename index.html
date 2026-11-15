@@ -1,231 +1,548 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hellaz Network — Hellenic & European Digital Ecosystem</title>
-  <meta name="description" content="Official portal of Hellaz Team: digital network services, independent .GR & .IT URL shorteners (urlz.gr, urlz.it), Greek web directory (sitez.gr), news portals (hellaz.gr, hellaz.eu), and agency tools (netz.gr)." />
-  <meta name="author" content="Hellaz.Team">
-  <meta name="copyright" content="Hellaz.Team">
-  <meta name="robots" content="index, follow">
-  <meta name="keywords" content="Hellaz, Team, web, portal, home, en, el, gr, hellaz.gr, hellaz.eu, hellaz.net, sitez.gr, urlz.gr, urlz.it, netz.gr, news, shortener, search">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hellaz Network — Next-Gen Hellenic & European Digital Command Deck</title>
   
-  <!-- Preserved Verification Meta Tags -->
+  <!-- SEO & Viral Meta Tags -->
+  <meta name="description" content="Official command deck of Hellaz Team: high-performance .GR & .IT URL shorteners (urlz.gr, urlz.it), curated Greek web directory (sitez.gr), real-time news portals, and network infrastructure." />
+  <meta name="keywords" content="Hellaz, Hellaz Team, urlz.gr, urlz.it, sitez.gr, netz.gr, hellaz.gr, hellaz.eu, greece, web shortener, digital agency" />
+  <meta name="author" content="Hellaz Team" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Verification Tokens -->
   <meta name="wot-verification" content="94901ba3d487d91eb5b4"/>
   <meta name="msvalidate.01" content="DC03BC1A9B216EDF51AA024F748C5C20" />
 
-  <!-- Open Graph & Schema Integration -->
+  <!-- Open Graph / Viral Sharing -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Hellaz Team — Hellenic Digital Infrastructure" />
-  <meta property="og:description" content="Explore hellaz.net, hellaz.gr, hellaz.eu, sitez.gr, urlz.gr, urlz.it, and netz.gr." />
+  <meta property="og:title" content="Hellaz Command Deck — High-Performance Web Infrastructure" />
+  <meta property="og:description" content="Experience the Hellaz ecosystem: instant shorteners, Greek web indexes, and live network telemetry." />
   <meta property="og:url" content="https://hellaz.github.io/" />
 
-  <link rel="stylesheet" href="./style.css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-  
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
   <style>
     :root {
-      --bg: #090d16;
-      --surface: #111827;
-      --surface-hover: #182236;
+      --bg: #030712;
+      --card-bg: rgba(17, 24, 39, 0.7);
       --border: rgba(255, 255, 255, 0.08);
+      --border-glow: rgba(56, 189, 248, 0.3);
       --text: #f3f4f6;
       --muted: #9ca3af;
       --accent: #38bdf8;
-      --accent-2: #10b981;
-      --glow: rgba(56, 189, 248, 0.15);
+      --accent-glow: rgba(56, 189, 248, 0.15);
+      --success: #10b981;
     }
-    body {
-      font-family: 'Open Sans', sans-serif;
-      background: radial-gradient(circle at 20% 0%, #0f1d36 0%, var(--bg) 55%);
-      color: var(--text);
-      line-height: 1.6;
-      min-height: 100vh;
-      margin: 0;
-      padding: 0;
-    }
-    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
     
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      height: 100vh;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+
+    /* Ambient Mouse Spotlight */
+    #spotlight {
+      position: absolute;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(56, 189, 248, 0.07) 0%, transparent 70%);
+      pointer-events: none;
+      transform: translate(-50%, -50%);
+      transition: width 0.3s, height 0.3s;
+      z-index: 1;
+    }
+
     /* Header Navbar */
     header {
+      height: 65px;
       border-bottom: 1px solid var(--border);
-      backdrop-filter: blur(12px);
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: rgba(9, 13, 22, 0.85);
-    }
-    .nav {
+      background: rgba(3, 7, 18, 0.85);
+      backdrop-filter: blur(16px);
       display: flex;
-      justify-content: space-between;
       align-items: center;
-      height: 68px;
+      justify-content: space-between;
+      padding: 0 32px;
+      z-index: 10;
     }
+
     .brand {
       display: flex;
       align-items: center;
       gap: 12px;
-      font-weight: 700;
-      font-size: 1.15rem;
-      color: var(--text);
       text-decoration: none;
+      color: var(--text);
+      font-weight: 700;
+      font-size: 1.1rem;
     }
+
     .brand-badge {
       background: linear-gradient(135deg, var(--accent), #6366f1);
-      color: #090d16;
+      color: #030712;
+      font-size: 0.75rem;
       font-weight: 800;
-      padding: 4px 10px;
-      border-radius: 6px;
-      font-size: 0.85rem;
+      padding: 4px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.05em;
     }
-    .nav-links { display: flex; gap: 20px; align-items: center; }
-    .nav-links a { color: var(--muted); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
-    .nav-links a:hover { color: var(--text); }
 
-    /* Main Content Layout */
-    .hero-layout {
-      padding: 48px 0 24px;
+    .nav-stats {
+      display: flex;
+      gap: 20px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .nav-stats span i { color: var(--success); margin-right: 4px; }
+
+    /* Main Command Deck Grid */
+    main {
+      flex: 1;
+      max-width: 1440px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 24px 32px;
       display: grid;
-      grid-template-columns: 1.2fr 1fr;
-      gap: 32px;
-      align-items: center;
+      grid-template-columns: 1fr 380px;
+      gap: 24px;
+      z-index: 10;
+      overflow: hidden;
     }
-    @media (max-width: 900px) { .hero-layout { grid-template-columns: 1fr; } }
 
-    .hero-intro h1 {
-      font-size: clamp(2rem, 3.5vw, 2.8rem);
-      font-weight: 700;
-      letter-spacing: -0.02em;
-      margin-bottom: 16px;
+    @media (max-width: 1024px) {
+      main { grid-template-columns: 1fr; overflow-y: auto; height: auto; }
+      body { height: auto; overflow: auto; }
     }
-    .hero-intro p { color: var(--muted); font-size: 1.05rem; margin-bottom: 24px; }
 
-    /* Interactive Search Console Card */
-    .console-card {
-      background: var(--surface);
+    /* Left Column: Bento Grid of Ecosystem */
+    .bento-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 16px;
+      height: 100%;
+    }
+
+    .bento-card {
+      background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 16px;
-      padding: 22px;
-      box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      backdrop-filter: blur(12px);
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
     }
-    .console-card h3 { font-size: 0.88rem; color: var(--muted); margin-top: 0; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
-    .search-box { display: flex; gap: 8px; margin-bottom: 14px; }
-    .search-box input {
+
+    .bento-card:hover {
+      border-color: var(--border-glow);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.4), 0 0 20px var(--accent-glow);
+    }
+
+    .bento-card.hero-span {
+      grid-column: span 2;
+    }
+
+    .card-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+    }
+
+    .domain-name {
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+      font-size: 1.15rem;
+      letter-spacing: -0.02em;
+    }
+
+    .badge {
+      font-size: 0.68rem;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 6px;
+      background: rgba(56, 189, 248, 0.1);
+      color: var(--accent);
+      border: 1px solid rgba(56, 189, 248, 0.2);
+    }
+
+    .card-desc {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+      border-top: 1px solid var(--border);
+      padding-top: 10px;
+    }
+
+    .status-ping {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--muted);
+    }
+
+    .ping-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #6b7280;
+    }
+    .ping-dot.online {
+      background: var(--success);
+      box-shadow: 0 0 8px var(--success);
+    }
+
+    .arrow-icon { color: var(--accent); transition: transform 0.2s; }
+    .bento-card:hover .arrow-icon { transform: translateX(3px); }
+
+    /* Right Column: Interactive Control Panel */
+    .control-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      backdrop-filter: blur(12px);
+      height: 100%;
+    }
+
+    .panel-section h3 {
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 12px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .terminal-input-group {
+      display: flex;
+      gap: 8px;
+    }
+
+    .terminal-input-group input {
       flex: 1;
-      background: #090d16;
+      background: #030712;
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 10px 14px;
       color: var(--text);
-      font-size: 0.9rem;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.85rem;
     }
-    .search-box input:focus { outline: none; border-color: var(--accent); }
-    .btn-search {
+
+    .terminal-input-group input:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 10px var(--accent-glow);
+    }
+
+    .btn-exec {
       background: var(--accent);
-      color: #06101d;
+      color: #030712;
       border: none;
       padding: 0 16px;
-      border-radius: 8px;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    .quick-pills { display: flex; flex-wrap: wrap; gap: 6px; }
-    .quick-pills a {
-      font-size: 0.78rem;
-      padding: 5px 10px;
-      border-radius: 6px;
-      background: rgba(255,255,255,0.04);
-      color: var(--text);
-      text-decoration: none;
-      border: 1px solid var(--border);
-    }
-    .quick-pills a:hover { border-color: var(--accent); color: var(--accent); }
-
-    /* H-E-L-L-A-Z Slideshow Presentation Deck */
-    .slideshow {
-      margin: 24px 0 48px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 32px;
-      position: relative;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
-    }
-    .slideshow input[type="radio"] { display: none; }
-    .slide { display: none; }
-    
-    /* Radio button state handling for pure CSS slide switching */
-    #slideCheckbox1:checked ~ .slide:nth-of-type(1),
-    #slideCheckbox2:checked ~ .slide:nth-of-type(2),
-    #slideCheckbox3:checked ~ .slide:nth-of-type(3),
-    #slideCheckbox4:checked ~ .slide:nth-of-type(4),
-    #slideCheckbox5:checked ~ .slide:nth-of-type(5),
-    #slideCheckbox6:checked ~ .slide:nth-of-type(6),
-    #slideCheckbox7:checked ~ .slide:nth-of-type(7) {
-      display: block;
-      animation: fadeIn 0.3s ease-in-out;
-    }
-    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
-
-    .slide__content h1 { color: var(--accent); font-size: 1.8rem; font-weight: 700; margin-bottom: 14px; }
-    .slide__content p { color: var(--muted); font-size: 1rem; margin-bottom: 12px; }
-
-    /* Slide Navigation Buttons (H E L L A Z TEAM) */
-    .slideshow nav {
-      display: flex;
-      gap: 8px;
-      flex-wrap: wrap;
-      margin-top: 28px;
-      padding-top: 20px;
-      border-top: 1px solid var(--border);
-    }
-    .slide-button {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      padding: 8px 16px;
       border-radius: 8px;
       font-weight: 700;
       font-size: 0.85rem;
       cursor: pointer;
-      transition: all 0.2s;
+      transition: background 0.2s, transform 0.1s;
     }
-    .slide-button:hover { background: var(--glow); color: var(--text); border-color: var(--accent); }
 
-    /* Active button styling based on checked input */
-    #slideCheckbox1:checked ~ nav label[for="slideCheckbox1"],
-    #slideCheckbox2:checked ~ nav label[for="slideCheckbox2"],
-    #slideCheckbox3:checked ~ nav label[for="slideCheckbox3"],
-    #slideCheckbox4:checked ~ nav label[for="slideCheckbox4"],
-    #slideCheckbox5:checked ~ nav label[for="slideCheckbox5"],
-    #slideCheckbox6:checked ~ nav label[for="slideCheckbox6"],
-    #slideCheckbox7:checked ~ nav label[for="slideCheckbox7"] {
-      background: var(--accent);
-      color: #06101d;
+    .btn-exec:hover { background: #7dd3fc; transform: translateY(-1px); }
+
+    .quick-tools-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .tool-btn {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px;
+      text-align: left;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.2s;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .tool-btn:hover {
+      background: var(--accent-glow);
       border-color: var(--accent);
     }
 
-    /* Ecosystem Grid Header & Cards */
-    .section-title { font-size: 1.35rem; font-weight: 700; margin: 36px 0 16px; border-top: 1px solid var(--border); padding-top: 24px; }
-    .ecosystem-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-      gap: 16px;
-      margin-bottom: 48px;
-    }
-    .eco-card {
-      background: var(--surface);
+    .tool-btn span { font-size: 0.75rem; color: var(--muted); }
+    .tool-btn strong { font-family: 'JetBrains Mono', monospace; font-size: 0.85rem; color: var(--accent); }
+
+    /* Live Telemetry Log Box */
+    .telemetry-box {
+      flex: 1;
+      background: #030712;
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 18px;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      transition: transform 0.2s, border-color 0.2s;
+      border-radius: 10px;
+      padding: 12px;
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 0.75rem;
+      color: #10b981;
+      overflow-y: auto;
+      max-height: 140px;
     }
-    .eco-card:hover { transform: translateY(-2px); border-color: rgba(56, 189, 248, 0.4); }
-    .eco-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
-    .eco-domain { font-weight: 700; font-size: 1.05rem; color: var(--text); }
-    .eco-tag { font-size: 0.7rem; font-weight: 600; padding: 2px 7px; border-radius: 4px; background: rgba(56, 189, 248, 0.1); color: var(--accent); }
-    .eco-desc { font-size: 0.85rem; color: var(--muted); margin-
+
+    /* Footer */
+    footer {
+      height: 45px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      z-index: 10;
+      background: var(--bg);
+    }
+
+    footer a { color: var(--accent); text-decoration: none; }
+  </style>
+</head>
+<body>
+
+  <!-- Ambient Light Spotlight -->
+  <div id="spotlight"></div>
+
+  <!-- Header -->
+  <header>
+    <a href="https://hellaz.net" class="brand">
+      <span class="brand-badge">HELLAZ</span>
+      <span>Network Command Deck</span>
+    </a>
+    <div class="nav-stats">
+      <span><i class="fa-solid fa-circle"></i> 7 Nodes Active</span>
+      <span><i class="fa-solid fa-shield-halved"></i> Cloudflare Protected</span>
+    </div>
+  </header>
+
+  <!-- Main Grid -->
+  <main>
+    <!-- Left Bento Grid (7 Platforms) -->
+    <div class="bento-container">
+      
+      <!-- 1. Hellaz.net (Hero Span) -->
+      <a href="https://hellaz.net" target="_blank" rel="noopener" class="bento-card hero-span">
+        <div>
+          <div class="card-top">
+            <span class="domain-name">hellaz.net</span>
+            <span class="badge">CORE INFRASTRUCTURE</span>
+          </div>
+          <p class="card-desc">Central network gateway, master directory, and core routing infrastructure for the Hellaz ecosystem.</p>
+        </div>
+        <div class="card-footer">
+          <span class="status-ping" data-ping="https://hellaz.net"><span class="ping-dot"></span> Checking telemetry...</span>
+          <span class="arrow-icon">Launch Hub <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+      <!-- 2. SiteZ.gr -->
+      <a href="https://sitez.gr" target="_blank" rel="noopener" class="bento-card">
+        <div>
+          <div class="card-top">
+            <span class="domain-name">sitez.gr</span>
+            <span class="badge">DIRECTORY</span>
+          </div>
+          <p class="card-desc"><strong>Ο Ελληνικός Κατάλογος</strong> — Curated Greek web portals and elite resources.</p>
+        </div>
+        <div class="card-footer">
+          <span class="status-ping" data-ping="https://sitez.gr"><span class="ping-dot"></span></span>
+          <span class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <!-- 3. UrlZ.gr -->
+      <a href="https://urlz.gr" target="_blank" rel="noopener" class="bento-card">
+        <div>
+          <div class="card-top">
+            <span class="domain-name">urlz.gr</span>
+            <span class="badge">.GR SHORTENER</span>
+          </div>
+          <p class="card-desc">Ultra-fast link management optimized for the Hellenic web.</p>
+        </div>
+        <div class="card-footer">
+          <span class="status-ping" data-ping="https://urlz.gr"><span class="ping-dot"></span></span>
+          <span class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <!-- 4. UrlZ.it -->
+      <a href="https://urlz.it" target="_blank" rel="noopener" class="bento-card">
+        <div>
+          <div class="card-top">
+            <span class="domain-name">urlz.it</span>
+            <span class="badge">.IT SHORTENER</span>
+          </div>
+          <p class="card-desc">Dedicated high-availability Italian link routing service.</p>
+        </div>
+        <div class="card-footer">
+          <span class="status-ping" data-ping="https://urlz.it"><span class="ping-dot"></span></span>
+          <span class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <!-- 5. NetZ.gr -->
+      <a href="https://netz.gr" target="_blank" rel="noopener" class="bento-card">
+        <div>
+          <div class="card-top">
+            <span class="domain-name">netz.gr</span>
+            <span class="badge">DIGITAL AGENCY</span>
+          </div>
+          <p class="card-desc">Network services &amp; custom search engine (`search.netz.gr`).</p>
+        </div>
+        <div class="card-footer">
+          <span class="status-ping" data-ping="https://netz.gr"><span class="ping-dot"></span></span>
+          <span class="arrow-icon"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </a>
+
+      <!-- 6. HellaZ.GR & EU News -->
+      <a href="https://hellaz.gr" target="_blank" rel="noopener" class="bento-card hero-span">
+        <div>
+          <div class="card-top">
+            <span class="domain-name">hellaz.gr &middot; hellaz.eu</span>
+            <span class="badge">NEWS &amp; MEDIA</span>
+          </div>
+          <p class="card-desc">Real-time Greek news aggregator (<em>Επικαιρότητα &amp; Νέα</em>) and European regional portals.</p>
+        </div>
+        <div class="card-footer">
+          <span class="status-ping" data-ping="https://hellaz.gr"><span class="ping-dot"></span> Telemetry Stable</span>
+          <span class="arrow-icon">Read Feeds <i class="fa-solid fa-arrow-right-long"></i></span>
+        </div>
+      </a>
+
+    </div>
+
+    <!-- Right Control Deck -->
+    <div class="control-panel">
+      
+      <!-- Quick Search Terminal -->
+      <div class="panel-section">
+        <h3><i class="fa-solid fa-terminal"></i> Search NetZ Engine</h3>
+        <form class="terminal-input-group" action="https://search.netz.gr" method="get" target="_blank">
+          <input type="text" name="q" placeholder="Query .gr web..." required />
+          <button type="submit" class="btn-exec">Run</button>
+        </form>
+      </div>
+
+      <!-- Quick Shortcuts -->
+      <div class="panel-section">
+        <h3><i class="fa-solid fa-bolt"></i> Instant Gateways</h3>
+        <div class="quick-tools-grid">
+          <a href="https://urlz.gr" target="_blank" rel="noopener" class="tool-btn">
+            <span>Shortener</span>
+            <strong>urlz.gr ↗</strong>
+          </a>
+          <a href="https://sitez.gr" target="_blank" rel="noopener" class="tool-btn">
+            <span>Directory</span>
+            <strong>sitez.gr ↗</strong>
+          </a>
+          <a href="https://hellaz.gr" target="_blank" rel="noopener" class="tool-btn">
+            <span>News GR</span>
+            <strong>hellaz.gr ↗</strong>
+          </a>
+          <a href="https://github.com/hellaz" target="_blank" rel="noopener" class="tool-btn">
+            <span>Codebase</span>
+            <strong>GitHub ↗</strong>
+          </a>
+        </div>
+      </div>
+
+      <!-- Live Telemetry Stream -->
+      <div class="panel-section" style="display: flex; flex-direction: column; flex: 1;">
+        <h3><i class="fa-solid fa-wave-square"></i> Live Telemetry Feed</h3>
+        <div class="telemetry-box" id="telemetry-log">
+          <div>[INIT] Establishing secure socket...</div>
+          <div>[SYNC] Loading ecosystem nodes...</div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div>&copy; <span id="year"></span> Hellaz Team &middot; All Rights Reserved</div>
+    <div><a href="https://github.com/hellaz" target="_blank"><i class="fa-brands fa-github"></i> github.com/hellaz</a></div>
+  </footer>
+
+  <!-- Script for Spotlight & Live Pings -->
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+
+    // Spotlight cursor tracking
+    const spotlight = document.getElementById("spotlight");
+    window.addEventListener("mousemove", e => {
+      spotlight.style.left = e.clientX + "px";
+      spotlight.style.top = e.clientY + "px";
+    });
+
+    // Live Telemetry & Ping checks
+    const logBox = document.getElementById("telemetry-log");
+    function logMsg(msg) {
+      const div = document.createElement("div");
+      div.textContent = `[${new Date().toLocaleTimeString()}] ${msg}`;
+      logBox.appendChild(div);
+      logBox.scrollTop = logBox.scrollHeight;
+    }
+
+    document.querySelectorAll("[data-ping]").forEach(async el => {
+      const url = el.dataset.ping;
+      const dot = el.querySelector(".ping-dot");
+      const start = performance.now();
+      try {
+        await fetch(url, { mode: "no-cors", cache: "no-store" });
+        const ms = Math.round(performance.now() - start);
+        dot.classList.add("online");
+        el.innerHTML = `<span class="ping-dot online"></span> ${ms}ms · Optimal`;
+        logMsg(`NODE ${url.replace('https://','')} -> HTTP 200 OK (${ms}ms)`);
+      } catch (err) {
+        el.innerHTML = `<span class="ping-dot" style="background:#ef4444"></span> Offline`;
+        logMsg(`WARN: Node ${url} timed out.`);
+      }
+    });
+  </script>
+</body>
+</html>
