@@ -3,317 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hellaz Network — Digital Ecosystem & Web Infrastructure</title>
-  
-  <!-- SEO & Meta -->
+  <title>Hellaz Network — Digital Ecosystem &amp; Web Infrastructure</title>
   <meta name="description" content="Official showcase of Hellaz Team: premium .GR & .IT URL shorteners, curated Greek web directories, real-time news portals, and network infrastructure." />
   <meta name="keywords" content="Hellaz, Hellaz Team, urlz.gr, urlz.it, sitez.gr, netz.gr, hellaz.gr, hellaz.eu, greece, web directory" />
-  
-  <!-- Verification & OG -->
   <meta name="wot-verification" content="94901ba3d487d91eb5b4"/>
   <meta name="msvalidate.01" content="DC03BC1A9B216EDF51AA024F748C5C20" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Hellaz Network — Kinetic Digital Ecosystem" />
   <meta property="og:description" content="Explore the Hellaz suite of high-performance web platforms." />
   <meta property="og:url" content="https://hellaz.github.io/" />
-
-  <!-- Google Fonts & Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <style>
-    :root {
-      --bg: #07090e;
-      --card-bg: rgba(255, 255, 255, 0.03);
-      --card-border: rgba(255, 255, 255, 0.08);
-      --card-hover: rgba(255, 255, 255, 0.07);
-      --text: #f8fafc;
-      --muted: #94a3b8;
-      --accent: #38bdf8;
-      --accent-glow: rgba(56, 189, 248, 0.25);
-    }
-
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    
-    body {
-      font-family: 'Outfit', sans-serif;
-      background-color: var(--bg);
-      color: var(--text);
-      height: 100vh;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-    }
-
-    /* Ambient Floating Animated Orbs (The "Wow" Factor) */
-    .ambient-glow {
-      position: absolute;
-      width: 500px;
-      height: 500px;
-      border-radius: 50%;
-      filter: blur(100px);
-      z-index: 0;
-      opacity: 0.4;
-      pointer-events: none;
-      animation: floatOrbs 12s infinite alternate ease-in-out;
-    }
-    .orb-1 { top: -10%; left: -10%; background: #6366f1; }
-    .orb-2 { bottom: -10%; right: -10%; background: #0ea5e9; animation-delay: -6s; }
-
-    @keyframes floatOrbs {
-      0% { transform: translate(0, 0) scale(1); }
-      100% { transform: translate(40px, 50px) scale(1.15); }
-    }
-
-    /* Header */
-    header {
-      height: 75px;
-      padding: 0 48px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      z-index: 10;
-      border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-      background: rgba(7, 9, 14, 0.5);
-      backdrop-filter: blur(20px);
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 14px;
-      text-decoration: none;
-      color: var(--text);
-      font-weight: 700;
-      font-size: 1.25rem;
-      letter-spacing: -0.02em;
-    }
-
-    .brand-icon {
-      width: 36px; height: 36px;
-      background: linear-gradient(135deg, #38bdf8, #6366f1);
-      border-radius: 10px;
-      display: flex; align-items: center; justify-content: center;
-      color: #07090e; font-weight: 800; font-size: 1rem;
-      box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 24px;
-    }
-    .nav-links a {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.9rem;
-      font-weight: 500;
-      transition: color 0.2s;
-    }
-    .nav-links a:hover { color: var(--text); }
-
-    /* Main Container */
-    main {
-      flex: 1;
-      max-width: 1350px;
-      width: 100%;
-      margin: 0 auto;
-      padding: 32px 48px;
-      display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap: 48px;
-      align-items: center;
-      z-index: 10;
-    }
-
-    @media (max-width: 1024px) {
-      main { grid-template-columns: 1fr; overflow-y: auto; height: auto; padding: 24px; }
-      body { height: auto; overflow: auto; }
-    }
-
-    /* Left Hero Copy */
-    .hero-content h1 {
-      font-size: clamp(2.5rem, 4vw, 3.8rem);
-      font-weight: 800;
-      line-height: 1.08;
-      letter-spacing: -0.03em;
-      margin-bottom: 20px;
-      background: linear-gradient(to right, #fff, #94a3b8);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .hero-content h1 span {
-      background: linear-gradient(135deg, #38bdf8, #818cf8);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .hero-content p {
-      font-size: 1.12rem;
-      color: var(--muted);
-      line-height: 1.6;
-      margin-bottom: 32px;
-      max-width: 52ch;
-    }
-
-    .hero-actions {
-      display: flex;
-      gap: 16px;
-    }
-
-    .btn-glow {
-      background: linear-gradient(135deg, #38bdf8, #6366f1);
-      color: #07090e;
-      padding: 14px 28px;
-      border-radius: 12px;
-      font-weight: 700;
-      font-size: 0.95rem;
-      text-decoration: none;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 4px 25px rgba(56, 189, 248, 0.3);
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .btn-glow:hover { transform: translateY(-2px); box-shadow: 0 6px 30px rgba(56, 189, 248, 0.5); }
-
-    .btn-glass {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      color: var(--text);
-      padding: 14px 28px;
-      border-radius: 12px;
-      font-weight: 600;
-      font-size: 0.95rem;
-      text-decoration: none;
-      transition: background 0.2s, border-color 0.2s;
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-    }
-    .btn-glass:hover { background: rgba(255, 255, 255, 0.1); border-color: rgba(255, 255, 255, 0.2); }
-
-    /* Right Ecosystem Showcase Cards (Glass Stack) */
-    .ecosystem-stack {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-    }
-
-    .eco-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 20px;
-      padding: 24px;
-      text-decoration: none;
-      color: inherit;
-      backdrop-filter: blur(20px);
-      transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
-      position: relative;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      min-height: 140px;
-    }
-
-    .eco-card::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; width: 100%; height: 100%;
-      background: radial-gradient(circle at top right, rgba(56, 189, 248, 0.15), transparent 70%);
-      opacity: 0;
-      transition: opacity 0.3s;
-    }
-
-    .eco-card:hover {
-      background: var(--card-hover);
-      border-color: rgba(56, 189, 248, 0.4);
-      transform: translateY(-4px);
-      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(56, 189, 248, 0.1);
-    }
-    .eco-card:hover::before { opacity: 1; }
-
-    .eco-card.featured {
-      grid-column: span 2;
-      min-height: 110px;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .eco-header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 8px;
-    }
-
-    .eco-domain {
-      font-weight: 700;
-      font-size: 1.15rem;
-      letter-spacing: -0.01em;
-      color: #fff;
-    }
-
-    .eco-tag {
-      font-size: 0.7rem;
-      font-weight: 600;
-      padding: 4px 10px;
-      border-radius: 999px;
-      background: rgba(56, 189, 248, 0.1);
-      color: var(--accent);
-      border: 1px solid rgba(56, 189, 248, 0.2);
-    }
-
-    .eco-desc {
-      font-size: 0.85rem;
-      color: var(--muted);
-      line-height: 1.4;
-    }
-
-    .eco-status {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      font-size: 0.75rem;
-      color: var(--muted);
-      margin-top: 12px;
-    }
-
-    .pulse-dot {
-      width: 6px; height: 6px;
-      border-radius: 50%;
-      background: #10b981;
-      box-shadow: 0 0 8px #10b981;
-    }
-
-    /* Footer */
-    footer {
-      height: 60px;
-      padding: 0 48px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      border-top: 1px solid rgba(255, 255, 255, 0.05);
-      background: rgba(7, 9, 14, 0.5);
-      backdrop-filter: blur(20px);
-      font-size: 0.85rem;
-      color: var(--muted);
-      z-index: 10;
-    }
-
-    footer a { color: var(--accent); text-decoration: none; font-weight: 600; }
-  </style>
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-
-  <!-- Ambient Background Orbs -->
   <div class="ambient-glow orb-1"></div>
   <div class="ambient-glow orb-2"></div>
 
-  <!-- Header -->
   <header>
     <a href="https://hellaz.net" class="brand">
       <div class="brand-icon">H</div>
@@ -325,8 +31,84 @@
     </div>
   </header>
 
-  <!-- Main Content -->
   <main>
     <div class="hero-content">
-      <div style="display:inline-flex; align-items:center; gap:8px; padding:6px 14px; border-radius:999px; background:rgba(56,189,248,0.1); border:1px solid rgba(56,189,248,0.2); color:var(--accent); font-size:0.82rem; font-weight:600; margin-bottom:20px;">
-        <span class="pulse-dot
+      <div class="hero-badge"><span class="pulse-dot"></span> Hellenic &amp; European Digital Infrastructure</div>
+      <h1>Engineering the Next-Gen <span>Web Ecosystem</span></h1>
+      <p>Welcome to the digital headquarters of Hellaz Team. We build high-performance web applications, independent ccTLD URL infrastructure, and curated Hellenic portals.</p>
+      <div class="hero-actions">
+        <a href="https://hellaz.net" target="_blank" rel="noopener" class="btn-glow">Explore Platforms <i class="fa-solid fa-arrow-right"></i></a>
+        <a href="https://search.netz.gr" target="_blank" rel="noopener" class="btn-glass"><i class="fa-solid fa-magnifying-glass"></i> Search NetZ</a>
+      </div>
+    </div>
+
+    <div class="ecosystem-stack" id="ecosystem">
+      <a href="https://hellaz.net" target="_blank" rel="noopener" class="eco-card featured">
+        <div>
+          <div class="eco-header"><span class="eco-domain">hellaz.net</span><span class="eco-tag">CORE HUB</span></div>
+          <p class="eco-desc">Central network infrastructure and master project gateway.</p>
+        </div>
+        <div class="eco-status" data-ping="https://hellaz.net"><span class="pulse-dot"></span> Live</div>
+      </a>
+
+      <a href="https://urlz.gr" target="_blank" rel="noopener" class="eco-card">
+        <div>
+          <div class="eco-header"><span class="eco-domain">urlz.gr</span><span class="eco-tag">.GR</span></div>
+          <p class="eco-desc">Dedicated Greek URL shortener &amp; link manager.</p>
+        </div>
+        <div class="eco-status" data-ping="https://urlz.gr"><span class="pulse-dot"></span> Live</div>
+      </a>
+
+      <a href="https://urlz.it" target="_blank" rel="noopener" class="eco-card">
+        <div>
+          <div class="eco-header"><span class="eco-domain">urlz.it</span><span class="eco-tag">.IT</span></div>
+          <p class="eco-desc">Independent Italian URL shortener &amp; router.</p>
+        </div>
+        <div class="eco-status" data-ping="https://urlz.it"><span class="pulse-dot"></span> Live</div>
+      </a>
+
+      <a href="https://sitez.gr" target="_blank" rel="noopener" class="eco-card">
+        <div>
+          <div class="eco-header"><span class="eco-domain">sitez.gr</span><span class="eco-tag">DIRECTORY</span></div>
+          <p class="eco-desc"><strong>Ο Ελληνικός Κατάλογος</strong> — Curated web index.</p>
+        </div>
+        <div class="eco-status" data-ping="https://sitez.gr"><span class="pulse-dot"></span> Live</div>
+      </a>
+
+      <a href="https://netz.gr" target="_blank" rel="noopener" class="eco-card">
+        <div>
+          <div class="eco-header"><span class="eco-domain">netz.gr</span><span class="eco-tag">AGENCY</span></div>
+          <p class="eco-desc">Digital .GR services &amp; custom search engine.</p>
+        </div>
+        <div class="eco-status" data-ping="https://netz.gr"><span class="pulse-dot"></span> Live</div>
+      </a>
+
+      <a href="https://hellaz.gr" target="_blank" rel="noopener" class="eco-card featured">
+        <div>
+          <div class="eco-header"><span class="eco-domain">hellaz.gr &middot; hellaz.eu</span><span class="eco-tag">NEWS MEDIA</span></div>
+          <p class="eco-desc">Real-time Greek news aggregator (<em>Επικαιρότητα &amp; Νέα</em>) and European regional portals.</p>
+        </div>
+        <div class="eco-status" data-ping="https://hellaz.gr"><span class="pulse-dot"></span> Live</div>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    <div>&copy; <span id="year"></span> Hellaz Team &middot; All Rights Reserved</div>
+    <div><a href="https://github.com/hellaz" target="_blank">github.com/hellaz ↗</a></div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+    document.querySelectorAll("[data-ping]").forEach(async el => {
+      const url = el.dataset.ping, start = performance.now();
+      try {
+        await fetch(url, { mode: "no-cors", cache: "no-store" });
+        el.innerHTML = `<span class="pulse-dot"></span> Optimal (${Math.round(performance.now() - start)}ms)`;
+      } catch {
+        el.innerHTML = `<span class="pulse-dot" style="background:#ef4444; box-shadow: 0 0 8px #ef4444;"></span> Active`;
+      }
+    });
+  </script>
+</body>
+</html>
